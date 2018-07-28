@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ARJ-202B
+D Dual RJ45 1000Base-T with magnetics
+K RJ45 1000Base-T ethernet
+F https://abracon.com/Magnetics/lan/ARJ-202B.pdf
+$ENDCMP
+#
 $CMP PCIe_x4_EDGE
 D PCIe x4 edge connector
 K pcie x4 edge
