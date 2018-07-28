@@ -1,3 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PCIe_x4_EDGE
+D PCIe x4 edge connector
+K pcie x4 edge
+$ENDCMP
+#
+$CMP miniDP_sink
+D mini DisplayPort connector, sink-side
+K minidp dp displayport
+$ENDCMP
+#
+$CMP miniDP_source
+D mini DisplayPort connector, source-side
+K minidp dp displayport
+$ENDCMP
+#
 #End Doc Library
