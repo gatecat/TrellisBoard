@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ECP5UM5G)(type Legacy)(uri ${KIPRJMOD}/../lib/ecp5um5g.lib)(options "")(descr ""))
+)

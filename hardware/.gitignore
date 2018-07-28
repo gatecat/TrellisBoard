@@ -1,0 +1,7 @@
+# KiCad gitignore
+
+*.bak
+*.zip
+*.bck
+*.kicad_pcb-bak
+Thumbs.db
