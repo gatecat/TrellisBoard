@@ -4,6 +4,11 @@ $CMP LM21212-2
 D 12A High Efficiency Synchronous Buck
 $ENDCMP
 #
+$CMP TLV75712PDR
+D 1.2V 1A Low-Dropout Regulator
+K LDO regulator 1.2V
+$ENDCMP
+#
 $CMP TPS25944A
 D 2.7V-18V, 5A eFuse Power Mux
 K efuse power mux powerpath fet
