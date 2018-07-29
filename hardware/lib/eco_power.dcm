@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS25944A
+D 2.7V-18V, 5A eFuse Power Mux
+K efuse power mux powerpath fet
+$ENDCMP
+#
+$CMP TPS565208
+D 4.5-V to 17-V Input, 5-A Synchronous Step-Down Voltage Regulator in SOT-23
+K buck regulator 5A
+F http://www.ti.com/lit/ds/symlink/tps565208.pdf
+$ENDCMP
+#
+#End Doc Library
