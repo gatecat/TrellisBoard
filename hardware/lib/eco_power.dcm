@@ -11,4 +11,10 @@ K buck regulator 5A
 F http://www.ti.com/lit/ds/symlink/tps565208.pdf
 $ENDCMP
 #
+$CMP TPS62823
+D 3A Step-Down Converter
+K buck 3a step-down regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
 #End Doc Library
