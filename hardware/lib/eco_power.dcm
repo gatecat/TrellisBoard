@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM21212-2
+D 12A High Efficiency Synchronous Buck
+$ENDCMP
+#
 $CMP TPS25944A
 D 2.7V-18V, 5A eFuse Power Mux
 K efuse power mux powerpath fet
