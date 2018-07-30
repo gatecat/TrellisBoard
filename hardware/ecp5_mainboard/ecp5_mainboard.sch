@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -25,5 +25,11 @@ S 5300 900  1650 1000
 U 5B5F5F9A
 F0 "FPGA Core Power" 50
 F1 "fpga_pwr.sch" 50
+$EndSheet
+$Sheet
+S 1000 2300 2400 800 
+U 62793184
+F0 "Debug Interface" 50
+F1 "debug.sch" 50
 $EndSheet
 $EndSCHEMATC
