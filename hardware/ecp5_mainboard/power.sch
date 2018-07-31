@@ -641,17 +641,6 @@ Wire Wire Line
 Connection ~ 2250 4600
 Wire Wire Line
 	2250 4600 2400 4600
-$Comp
-L Device:R_Small R206
-U 1 1 5B650609
-P 2600 4350
-F 0 "R206" H 2659 4396 50  0000 L CNN
-F 1 "27k" H 2659 4305 50  0000 L CNN
-F 2 "" H 2600 4350 50  0001 C CNN
-F 3 "~" H 2600 4350 50  0001 C CNN
-	1    2600 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 4450 2600 4600
 Wire Wire Line
@@ -659,12 +648,10 @@ Wire Wire Line
 Connection ~ 2400 4600
 Wire Wire Line
 	2600 4250 2600 4200
-Wire Wire Line
-	2600 4200 2850 4200
 Text Notes 2300 4550 0    50   ~ 0
 T=1ms
-Text Notes 2600 4550 0    50   ~ 0
-Ilim=3.3A
+Text Notes 2650 4750 0    50   ~ 0
+Ilim=1A (no CC)\n    =3.3A (with CC)
 Wire Wire Line
 	4450 3400 4550 3400
 Wire Wire Line
@@ -3272,4 +3259,90 @@ Wire Wire Line
 Connection ~ 2950 1900
 Wire Wire Line
 	2950 1900 3250 1900
+Text Label 2600 4200 0    50   ~ 0
+Ilim
+$Comp
+L Device:R_Small R206
+U 1 1 5B650609
+P 2600 4350
+F 0 "R206" H 2659 4396 50  0000 L CNN
+F 1 "91k" H 2659 4305 50  0000 L CNN
+F 2 "" H 2600 4350 50  0001 C CNN
+F 3 "~" H 2600 4350 50  0001 C CNN
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5BB19D72
+P 1150 4550
+F 0 "R?" H 1209 4596 50  0000 L CNN
+F 1 "39k" H 1209 4505 50  0000 L CNN
+F 2 "" H 1150 4550 50  0001 C CNN
+F 3 "~" H 1150 4550 50  0001 C CNN
+	1    1150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5BB1A239
+P 1050 4950
+F 0 "Q?" H 1255 4996 50  0000 L CNN
+F 1 "BSH111BKR" H 1255 4905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1250 4875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 1050 4950 50  0001 L CNN
+	1    1050 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4750 1150 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5BBEC6E0
+P 1150 5300
+F 0 "#PWR?" H 1150 5050 50  0001 C CNN
+F 1 "GND" H 1155 5127 50  0000 C CNN
+F 2 "" H 1150 5300 50  0001 C CNN
+F 3 "" H 1150 5300 50  0001 C CNN
+	1    1150 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5300 1150 5250
+Text GLabel 800  4950 0    50   Input ~ 0
+3A_EN
+Wire Wire Line
+	800  4950 850  4950
+Wire Wire Line
+	1150 4200 1150 4450
+Connection ~ 2600 4200
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5BE70E72
+P 1750 5000
+F 0 "JP?" V 1704 5098 50  0000 L CNN
+F 1 "3A_FORCE" V 1795 5098 50  0000 L CNN
+F 2 "" H 1750 5000 50  0001 C CNN
+F 3 "~" H 1750 5000 50  0001 C CNN
+	1    1750 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 5200 1750 5250
+Wire Wire Line
+	1750 5250 1150 5250
+Connection ~ 1150 5250
+Wire Wire Line
+	1150 5250 1150 5150
+Wire Wire Line
+	1750 4800 1750 4700
+Wire Wire Line
+	1750 4700 1150 4700
+Connection ~ 1150 4700
+Wire Wire Line
+	1150 4700 1150 4650
+Wire Wire Line
+	2600 4200 1150 4200
+Wire Wire Line
+	2600 4200 2850 4200
 $EndSCHEMATC
