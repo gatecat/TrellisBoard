@@ -1117,4 +1117,137 @@ Text GLabel 8400 2250 2    50   Output ~ 0
 JTAG_TDO
 Text GLabel 8400 2350 2    50   Output ~ 0
 JTAG_TMS
+NoConn ~ 7250 2950
+NoConn ~ 7250 3050
+NoConn ~ 7250 3150
+NoConn ~ 7250 3250
+NoConn ~ 7250 3350
+NoConn ~ 7250 3450
+NoConn ~ 7250 3550
+NoConn ~ 7250 3650
+Text GLabel 7800 3850 2    50   BiDi ~ 0
+FTDI_D0_TX
+Wire Wire Line
+	7800 3850 7250 3850
+Text GLabel 7800 3950 2    50   BiDi ~ 0
+FTDI_D1_RX
+Wire Wire Line
+	7800 3950 7650 3950
+Wire Wire Line
+	7250 4050 7800 4050
+Wire Wire Line
+	7800 4150 7250 4150
+Wire Wire Line
+	7250 4250 7800 4250
+Wire Wire Line
+	7250 4350 7800 4350
+Wire Wire Line
+	7250 4450 7800 4450
+Wire Wire Line
+	7250 4550 7800 4550
+Text GLabel 7800 4050 2    50   BiDi ~ 0
+FTDI_D2
+Text GLabel 7800 4150 2    50   BiDi ~ 0
+FTDI_D3
+Text GLabel 7800 4250 2    50   BiDi ~ 0
+FTDI_D4
+Text GLabel 7800 4350 2    50   BiDi ~ 0
+FTDI_D5
+Text GLabel 7800 4450 2    50   BiDi ~ 0
+FTDI_D6
+Text GLabel 7800 4550 2    50   BiDi ~ 0
+FTDI_D7
+Text GLabel 7800 4750 2    39   BiDi ~ 0
+FTDI_~RXF
+Text GLabel 7800 4850 2    39   BiDi ~ 0
+FTDI_~TXE
+Wire Wire Line
+	7250 4750 7800 4750
+Wire Wire Line
+	7800 4850 7250 4850
+Text GLabel 7800 4950 2    39   BiDi ~ 0
+FTDI_~RD
+Wire Wire Line
+	7800 4950 7550 4950
+Text GLabel 7800 5050 2    39   BiDi ~ 0
+FTDI_~WR
+Text GLabel 7800 5150 2    39   BiDi ~ 0
+FTDI_~SIWU
+Wire Wire Line
+	7800 5150 7350 5150
+Wire Wire Line
+	7800 5050 7450 5050
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5B78EB8E
+P 8000 5700
+F 0 "RN?" V 7583 5700 50  0000 C CNN
+F 1 "R_Pack04" V 7674 5700 50  0000 C CNN
+F 2 "" V 8275 5700 50  0001 C CNN
+F 3 "~" H 8000 5700 50  0001 C CNN
+	1    8000 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 5500 7650 5500
+Wire Wire Line
+	7650 5500 7650 3950
+Connection ~ 7650 3950
+Wire Wire Line
+	7650 3950 7250 3950
+Wire Wire Line
+	7800 5600 7550 5600
+Wire Wire Line
+	7550 5600 7550 4950
+Connection ~ 7550 4950
+Wire Wire Line
+	7550 4950 7250 4950
+Wire Wire Line
+	7800 5700 7450 5700
+Wire Wire Line
+	7450 5700 7450 5050
+Connection ~ 7450 5050
+Wire Wire Line
+	7450 5050 7250 5050
+Wire Wire Line
+	7350 5150 7350 5800
+Wire Wire Line
+	7350 5800 7800 5800
+Connection ~ 7350 5150
+Wire Wire Line
+	7350 5150 7250 5150
+NoConn ~ 7250 5650
+NoConn ~ 7250 5750
+Wire Wire Line
+	8200 5500 8350 5500
+Wire Wire Line
+	8350 5500 8350 5600
+Wire Wire Line
+	8350 5800 8200 5800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5B7FE314
+P 8500 5650
+F 0 "#PWR?" H 8500 5500 50  0001 C CNN
+F 1 "+3V3" V 8515 5778 50  0000 L CNN
+F 2 "" H 8500 5650 50  0001 C CNN
+F 3 "" H 8500 5650 50  0001 C CNN
+	1    8500 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 5650 8350 5650
+Connection ~ 8350 5650
+Wire Wire Line
+	8350 5650 8350 5700
+Wire Wire Line
+	8200 5600 8350 5600
+Connection ~ 8350 5600
+Wire Wire Line
+	8350 5600 8350 5650
+Wire Wire Line
+	8350 5700 8200 5700
+Connection ~ 8350 5700
+Wire Wire Line
+	8350 5700 8350 5800
 $EndSCHEMATC
