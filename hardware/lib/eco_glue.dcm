@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5P49V6965
+D VersaClock® 6E Programmable Clock Generator 1kHz-350MHz
+K clock pll reference 
+$ENDCMP
+#
+$CMP CBTL02043A
+D 3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, up to 10Gbps
+$ENDCMP
+#
+#End Doc Library

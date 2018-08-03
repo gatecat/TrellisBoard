@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -31,5 +31,11 @@ S 1000 2300 2400 800
 U 62793184
 F0 "Debug Interface" 50
 F1 "debug.sch" 50
+$EndSheet
+$Sheet
+S 1000 3500 2400 1000
+U 5B642DC1
+F0 "USB-C + DisplayPort" 50
+F1 "usbc_dp.sch" 50
 $EndSheet
 $EndSCHEMATC

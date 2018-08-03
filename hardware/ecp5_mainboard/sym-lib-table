@@ -4,4 +4,5 @@
   (lib (name eco_power)(type Legacy)(uri ${KIPRJMOD}/../lib/eco_power.lib)(options "")(descr ""))
   (lib (name eco_virtual)(type Legacy)(uri ${KIPRJMOD}/../lib/eco_virtual.lib)(options "")(descr ""))
   (lib (name eco_memory)(type Legacy)(uri ${KIPRJMOD}/../lib/eco_memory.lib)(options "")(descr ""))
+  (lib (name eco_glue)(type Legacy)(uri ${KIPRJMOD}/../lib/eco_glue.lib)(options "")(descr ""))
 )
