@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN65MLVD200A
+D Half-Duplex M-LVDS Transceiver
+K lvds mlvds transceiver xcvf io
+$ENDCMP
+#
+$CMP SN75DP130SS
+D DisplayPort™ 1:1 Redriver With Link Training (HBR 5.4Gbps/TMDS 340MHz)
+$ENDCMP
+#
+$CMP TPD4E02B04
+D 4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0
+$ENDCMP
+#
+#End Doc Library
