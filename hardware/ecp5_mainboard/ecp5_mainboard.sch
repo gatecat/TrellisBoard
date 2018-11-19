@@ -33,9 +33,9 @@ F0 "Debug Interface" 50
 F1 "debug.sch" 50
 $EndSheet
 $Sheet
-S 1000 3500 2400 1000
-U 5B642DC1
-F0 "USB-C + DisplayPort" 50
-F1 "usbc_dp.sch" 50
+S 1000 3450 2400 800 
+U 5C060E84
+F0 "PCIe + SATA" 50
+F1 "serdes.sch" 50
 $EndSheet
 $EndSCHEMATC

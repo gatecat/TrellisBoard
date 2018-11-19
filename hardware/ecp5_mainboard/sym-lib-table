@@ -6,4 +6,5 @@
   (lib (name eco_memory)(type Legacy)(uri ${KIPRJMOD}/../lib/eco_memory.lib)(options "")(descr ""))
   (lib (name eco_glue)(type Legacy)(uri ${KIPRJMOD}/../lib/eco_glue.lib)(options "")(descr ""))
   (lib (name eco_interface)(type Legacy)(uri ${KIPRJMOD}/../lib/eco_interface.lib)(options "")(descr ""))
+  (lib (name ecp5_mainboard-rescue)(type Legacy)(uri ${KIPRJMOD}/ecp5_mainboard-rescue.lib)(options "")(descr ""))
 )

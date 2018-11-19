@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle J?
+L ecp5_mainboard-rescue:USB_C_Receptacle-Connector J?
 U 1 1 627931FF
 P 950 4350
 F 0 "J?" H 1055 5917 50  0000 C CNN
@@ -1255,9 +1255,11 @@ CC1
 Text Label 1800 3650 0    50   ~ 0
 CC2
 $Comp
-L Comparator:LM393 U?
+L ecp5_mainboard-rescue:LM393-Comparator U?
 U 1 1 5B88B6DB
 P 1850 1600
+AR Path="/5B88B6DB" Ref="U?"  Part="1" 
+AR Path="/62793184/5B88B6DB" Ref="U?"  Part="1" 
 F 0 "U?" H 1850 1967 50  0000 C CNN
 F 1 "LM393" H 1850 1876 50  0000 C CNN
 F 2 "" H 1850 1600 50  0001 C CNN
@@ -1314,9 +1316,11 @@ Wire Wire Line
 Text Label 1300 1500 0    50   ~ 0
 CC1
 $Comp
-L Comparator:LM393 U?
+L ecp5_mainboard-rescue:LM393-Comparator U?
 U 2 1 5B8D1F68
 P 1850 2150
+AR Path="/5B8D1F68" Ref="U?"  Part="2" 
+AR Path="/62793184/5B8D1F68" Ref="U?"  Part="2" 
 F 0 "U?" H 1850 2517 50  0000 C CNN
 F 1 "LM393" H 1850 2426 50  0000 C CNN
 F 2 "" H 1850 2150 50  0001 C CNN
@@ -1329,9 +1333,11 @@ DBGVbus
 Wire Wire Line
 	1550 2050 1300 2050
 $Comp
-L Comparator:LM393 U?
+L ecp5_mainboard-rescue:LM393-Comparator U?
 U 3 1 5B90CA44
 P 800 1550
+AR Path="/5B90CA44" Ref="U?"  Part="3" 
+AR Path="/62793184/5B90CA44" Ref="U?"  Part="3" 
 F 0 "U?" H 758 1596 50  0000 L CNN
 F 1 "LM393" H 758 1505 50  0000 L CNN
 F 2 "" H 800 1550 50  0001 C CNN
