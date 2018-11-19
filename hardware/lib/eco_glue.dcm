@@ -2,7 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP 5P49V6965
 D VersaClock® 6E Programmable Clock Generator 1kHz-350MHz
-K clock pll reference 
+K clock pll reference
 $ENDCMP
 #
 $CMP CBTL02043A
