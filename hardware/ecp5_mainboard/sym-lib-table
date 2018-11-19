@@ -8,4 +8,5 @@
   (lib (name eco_interface)(type Legacy)(uri ${KIPRJMOD}/../lib/eco_interface.lib)(options "")(descr ""))
   (lib (name ecp5_mainboard-rescue)(type Legacy)(uri ${KIPRJMOD}/ecp5_mainboard-rescue.lib)(options "")(descr ""))
   (lib (name pkl_texas)(type Legacy)(uri ${KIPRJMOD}/../pkl/pkl_texas.lib)(options "")(descr ""))
+  (lib (name pkl_memory)(type Legacy)(uri ${KIPRJMOD}/../pkl/pkl_memory.lib)(options "")(descr ""))
 )
