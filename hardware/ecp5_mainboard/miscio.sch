@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -958,17 +958,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 5850 2050 5750
 Connection ~ 1950 5850
-$Comp
-L power:+1V8 #PWR?
-U 1 1 61399428
-P 3000 4200
-F 0 "#PWR?" H 3000 4050 50  0001 C CNN
-F 1 "+1V8" H 3015 4373 50  0000 C CNN
-F 2 "" H 3000 4200 50  0001 C CNN
-F 3 "" H 3000 4200 50  0001 C CNN
-	1    3000 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 4200 3000 4450
 $Comp
@@ -1004,19 +993,8 @@ F 3 "" H 4750 5350 50  0001 C CNN
 	1    4750 5150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+1V8 #PWR?
-U 1 1 613BDD1E
-P 5100 4150
-F 0 "#PWR?" H 5100 4000 50  0001 C CNN
-F 1 "+1V8" H 5115 4323 50  0000 C CNN
-F 2 "" H 5100 4150 50  0001 C CNN
-F 3 "" H 5100 4150 50  0001 C CNN
-	1    5100 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5100 4150 5100 4450
+	5100 4200 5100 4450
 Wire Wire Line
 	5100 5150 4950 5150
 Wire Wire Line
@@ -1124,4 +1102,26 @@ Connection ~ 4200 4800
 Wire Wire Line
 	4100 4450 4000 4450
 Connection ~ 4100 4450
+$Comp
+L power:+1V35 #PWR?
+U 1 1 61FB5AD2
+P 3000 4200
+F 0 "#PWR?" H 3000 4050 50  0001 C CNN
+F 1 "+1V35" H 3015 4373 50  0000 C CNN
+F 2 "" H 3000 4200 50  0001 C CNN
+F 3 "" H 3000 4200 50  0001 C CNN
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V35 #PWR?
+U 1 1 61FB5BB5
+P 5100 4200
+F 0 "#PWR?" H 5100 4050 50  0001 C CNN
+F 1 "+1V35" H 5115 4373 50  0000 C CNN
+F 2 "" H 5100 4200 50  0001 C CNN
+F 3 "" H 5100 4200 50  0001 C CNN
+	1    5100 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

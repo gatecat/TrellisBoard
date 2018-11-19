@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -55,5 +55,11 @@ S 5300 2300 1650 750
 U 6162FA9E
 F0 "DDR3" 50
 F1 "ddr3.sch" 50
+$EndSheet
+$Sheet
+S 4500 3500 2400 1700
+U 61FAF948
+F0 "FPGA IO" 50
+F1 "fpga_io.sch" 50
 $EndSheet
 $EndSCHEMATC
