@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -43,5 +43,11 @@ S 1000 4600 2400 800
 U 5CA09014
 F0 "HDMI, GbE, USB" 50
 F1 "ports.sch" 50
+$EndSheet
+$Sheet
+S 1000 5750 2400 900 
+U 610481D8
+F0 "Misc IO" 50
+F1 "miscio.sch" 50
 $EndSheet
 $EndSCHEMATC
