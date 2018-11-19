@@ -1,9 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0936273601
+D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX
+$ENDCMP
+#
 $CMP ARJ-202B
 D Dual RJ45 1000Base-T with magnetics
 K RJ45 1000Base-T ethernet
 F https://abracon.com/Magnetics/lan/ARJ-202B.pdf
+$ENDCMP
+#
+$CMP JK0654219
+D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX 
 $ENDCMP
 #
 $CMP PCIe_x4_EDGE
