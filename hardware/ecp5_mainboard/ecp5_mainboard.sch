@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -49,5 +49,11 @@ S 1000 5750 2400 900
 U 610481D8
 F0 "Misc IO" 50
 F1 "miscio.sch" 50
+$EndSheet
+$Sheet
+S 5300 2300 1650 750 
+U 6162FA9E
+F0 "DDR3" 50
+F1 "ddr3.sch" 50
 $EndSheet
 $EndSCHEMATC
