@@ -192,9 +192,7 @@ NoConn ~ 3300 3850
 NoConn ~ 3300 3750
 NoConn ~ 1500 3650
 NoConn ~ 1500 3550
-Wire Wire Line
-	3300 2250 3700 2250
-Text GLabel 3700 2250 2    50   Output ~ 0
+Text GLabel 4300 2250 2    50   Output ~ 0
 ~PERST
 Text Label 4050 2550 2    50   ~ 0
 PCIe_REFCLK+
@@ -444,17 +442,6 @@ PCIe_REFCLK-
 Wire Wire Line
 	11800 3550 12550 3550
 $Comp
-L power:+1V8 #PWR?
-U 1 1 5C237E7D
-P 9500 2150
-F 0 "#PWR?" H 9500 2000 50  0001 C CNN
-F 1 "+1V8" H 9515 2323 50  0000 C CNN
-F 2 "" H 9500 2150 50  0001 C CNN
-F 3 "" H 9500 2150 50  0001 C CNN
-	1    9500 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5C238099
 P 9500 2400
@@ -581,9 +568,9 @@ $EndComp
 Wire Wire Line
 	9850 2950 9850 3050
 Text Label 10250 2600 0    50   ~ 0
-1V8_C
+3V3_C
 Text Label 12100 2600 0    50   ~ 0
-1V8_CA
+3V3_CA
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5C260235
@@ -622,9 +609,9 @@ Wire Wire Line
 Wire Wire Line
 	12550 2850 12350 2850
 Text Label 12350 2750 0    50   ~ 0
-1V8_C
+3V3_C
 Text Label 12350 2850 0    50   ~ 0
-1V8_C
+3V3_C
 $Comp
 L Device:C_Small C?
 U 1 1 5C273942
@@ -892,8 +879,6 @@ F 3 "" H 11850 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11850 3750 12000 3750
-Text Label 14850 2650 2    50   ~ 0
-1V8_C
 Wire Wire Line
 	14850 2650 14550 2650
 Wire Wire Line
@@ -905,7 +890,7 @@ DCU0_REFCLK-
 Wire Wire Line
 	15300 2850 14550 2850
 Text Label 14850 3150 2    50   ~ 0
-1V8_C
+3V3_C
 Wire Wire Line
 	14850 3150 14550 3150
 NoConn ~ 14550 3350
@@ -931,7 +916,7 @@ Text Label 14850 3650 2    50   ~ 0
 Wire Wire Line
 	14850 3650 14550 3650
 Text Label 14850 4150 2    50   ~ 0
-1V8_C
+3V3_C
 Wire Wire Line
 	14850 4150 14550 4150
 NoConn ~ 14550 4350
@@ -1668,4 +1653,124 @@ Wire Wire Line
 Wire Wire Line
 	12150 7850 12150 7750
 Connection ~ 12150 7750
+$Comp
+L Device:R_Small R?
+U 1 1 62339B3D
+P 3850 2250
+F 0 "R?" V 3654 2250 50  0000 C CNN
+F 1 "1k" V 3745 2250 50  0000 C CNN
+F 2 "" H 3850 2250 50  0001 C CNN
+F 3 "~" H 3850 2250 50  0001 C CNN
+	1    3850 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2250 3300 2250
+Wire Wire Line
+	3950 2250 4300 2250
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62375601
+P 9500 2150
+F 0 "#PWR?" H 9500 2000 50  0001 C CNN
+F 1 "+3V3" H 9515 2323 50  0000 C CNN
+F 2 "" H 9500 2150 50  0001 C CNN
+F 3 "" H 9500 2150 50  0001 C CNN
+	1    9500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 6237B8C5
+P 8350 2400
+F 0 "FB?" H 8250 2354 50  0000 R CNN
+F 1 "200R@100MHz" H 8250 2445 50  0000 R CNN
+F 2 "" V 8280 2400 50  0001 C CNN
+F 3 "~" H 8350 2400 50  0001 C CNN
+	1    8350 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 62397E98
+P 8350 2150
+F 0 "#PWR?" H 8350 2000 50  0001 C CNN
+F 1 "+1V8" H 8365 2323 50  0000 C CNN
+F 2 "" H 8350 2150 50  0001 C CNN
+F 3 "" H 8350 2150 50  0001 C CNN
+	1    8350 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2150 8350 2300
+Text Label 8450 2600 0    50   ~ 0
+1V8_C
+Wire Wire Line
+	8350 2600 8350 2500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 623D1167
+P 8050 2150
+F 0 "#FLG?" H 8050 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 8050 2324 50  0000 C CNN
+F 2 "" H 8050 2150 50  0001 C CNN
+F 3 "~" H 8050 2150 50  0001 C CNN
+	1    8050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2150 8050 2600
+Wire Wire Line
+	8050 2600 8350 2600
+Connection ~ 8350 2600
+$Comp
+L Device:C_Small C?
+U 1 1 623EE239
+P 8350 2750
+F 0 "C?" H 8442 2796 50  0000 L CNN
+F 1 "10µ" H 8442 2705 50  0000 L CNN
+F 2 "" H 8350 2750 50  0001 C CNN
+F 3 "~" H 8350 2750 50  0001 C CNN
+	1    8350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2650 8350 2600
+$Comp
+L Device:C_Small C?
+U 1 1 6240B6D8
+P 8750 2750
+F 0 "C?" H 8842 2796 50  0000 L CNN
+F 1 "470n" H 8842 2705 50  0000 L CNN
+F 2 "" H 8750 2750 50  0001 C CNN
+F 3 "~" H 8750 2750 50  0001 C CNN
+	1    8750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2650 8750 2600
+Wire Wire Line
+	8750 2600 8350 2600
+Wire Wire Line
+	8750 2850 8750 2950
+Wire Wire Line
+	8750 2950 8350 2950
+Wire Wire Line
+	8350 2950 8350 2850
+$Comp
+L power:GND #PWR?
+U 1 1 6246401D
+P 8750 3050
+F 0 "#PWR?" H 8750 2800 50  0001 C CNN
+F 1 "GND" H 8755 2877 50  0000 C CNN
+F 2 "" H 8750 3050 50  0001 C CNN
+F 3 "" H 8750 3050 50  0001 C CNN
+	1    8750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3050 8750 2950
+Connection ~ 8750 2950
+Text Label 14850 2650 2    50   ~ 0
+1V8_C
 $EndSCHEMATC
