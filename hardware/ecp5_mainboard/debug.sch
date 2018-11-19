@@ -15,148 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ecp5_mainboard-rescue:USB_C_Receptacle-Connector J?
-U 1 1 627931FF
-P 950 4350
-F 0 "J?" H 1055 5917 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 1055 5826 50  0000 C CNN
-F 2 "" H 1100 4350 50  0001 C CNN
-F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1100 4350 50  0001 C CNN
-	1    950  4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 3850 1650 3850
-Wire Wire Line
-	1650 3850 1650 3950
-Wire Wire Line
-	1650 3950 1550 3950
-Wire Wire Line
-	1550 4050 1650 4050
-Wire Wire Line
-	1650 4050 1650 4150
-Wire Wire Line
-	1650 4150 1550 4150
-Connection ~ 1650 3850
-Connection ~ 1650 4050
-Text Label 2100 3850 2    50   ~ 0
-DBGUSB_D-
-Text Label 2100 4050 2    50   ~ 0
-DBGUSB_D+
-NoConn ~ 1550 4350
-NoConn ~ 1550 4450
-NoConn ~ 1550 4650
-NoConn ~ 1550 4750
-NoConn ~ 1550 5050
-NoConn ~ 1550 4950
-Wire Wire Line
-	750  5950 750  6050
-Wire Wire Line
-	750  6050 850  6050
-Wire Wire Line
-	1050 6050 1050 5950
-Wire Wire Line
-	850  5950 850  6050
-Connection ~ 850  6050
-Wire Wire Line
-	850  6050 950  6050
-Wire Wire Line
-	950  5950 950  6050
-Connection ~ 950  6050
-Wire Wire Line
-	950  6050 1050 6050
-Wire Wire Line
-	650  5950 650  6050
-Wire Wire Line
-	650  6050 750  6050
-Connection ~ 750  6050
-$Comp
-L power:GND #PWR?
-U 1 1 6279388B
-P 850 6150
-F 0 "#PWR?" H 850 5900 50  0001 C CNN
-F 1 "GND" H 855 5977 50  0000 C CNN
-F 2 "" H 850 6150 50  0001 C CNN
-F 3 "" H 850 6150 50  0001 C CNN
-	1    850  6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	850  6150 850  6050
-Wire Wire Line
-	1550 3350 1650 3350
-Wire Wire Line
-	1650 3350 1650 3250
-Wire Wire Line
-	1650 3050 1550 3050
-Wire Wire Line
-	1550 3150 1650 3150
-Connection ~ 1650 3150
-Wire Wire Line
-	1650 3150 1650 3050
-Wire Wire Line
-	1650 3250 1550 3250
-Connection ~ 1650 3250
-Wire Wire Line
-	1650 3250 1650 3150
-Wire Wire Line
-	1650 3050 1900 3050
-Connection ~ 1650 3050
-Text GLabel 1900 3050 2    50   Output ~ 0
-DBGVbus
-$Comp
-L Device:R_Small R?
-U 1 1 627DAE2E
-P 2200 3550
-F 0 "R?" V 2396 3550 50  0000 C CNN
-F 1 "5.1k" V 2200 3550 39  0000 C CNN
-F 2 "" H 2200 3550 50  0001 C CNN
-F 3 "~" H 2200 3550 50  0001 C CNN
-	1    2200 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 627DAEB8
-P 2200 3650
-F 0 "R?" V 2396 3650 50  0000 C CNN
-F 1 "5.1k" V 2200 3650 39  0000 C CNN
-F 2 "" H 2200 3650 50  0001 C CNN
-F 3 "~" H 2200 3650 50  0001 C CNN
-	1    2200 3650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2100 3550 1550 3550
-Wire Wire Line
-	2100 3650 1550 3650
-Wire Wire Line
-	2300 3550 2550 3550
-Wire Wire Line
-	2550 3550 2550 3600
-Wire Wire Line
-	2550 3650 2300 3650
-$Comp
-L power:GND #PWR?
-U 1 1 627DBC85
-P 2650 3600
-F 0 "#PWR?" H 2650 3350 50  0001 C CNN
-F 1 "GND" V 2655 3472 50  0000 R CNN
-F 2 "" H 2650 3600 50  0001 C CNN
-F 3 "" H 2650 3600 50  0001 C CNN
-	1    2650 3600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2650 3600 2550 3600
-Connection ~ 2550 3600
-Wire Wire Line
-	2550 3600 2550 3650
-NoConn ~ 1550 5250
-NoConn ~ 1550 5350
-NoConn ~ 1550 5650
-NoConn ~ 1550 5550
-$Comp
 L Interface_USB:FT2232H U?
 U 1 1 627DD271
 P 8200 3950
@@ -212,10 +70,6 @@ F 3 "~" H 5000 4050 50  0001 C CNN
 	1    5000 4050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1650 3850 4900 3850
-Wire Wire Line
-	1650 4050 4900 4050
 Wire Wire Line
 	5800 3850 5800 3050
 Wire Wire Line
@@ -1250,240 +1104,53 @@ Wire Wire Line
 Connection ~ 10500 5700
 Wire Wire Line
 	10500 5700 10500 5800
-Text Label 1800 3550 0    50   ~ 0
-CC1
-Text Label 1800 3650 0    50   ~ 0
-CC2
 $Comp
-L ecp5_mainboard-rescue:LM393-Comparator U?
-U 1 1 5B88B6DB
-P 1850 1600
-AR Path="/5B88B6DB" Ref="U?"  Part="1" 
-AR Path="/62793184/5B88B6DB" Ref="U?"  Part="1" 
-F 0 "U?" H 1850 1967 50  0000 C CNN
-F 1 "LM393" H 1850 1876 50  0000 C CNN
-F 2 "" H 1850 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 1850 1600 50  0001 C CNN
-	1    1850 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5B88C120
-P 1050 1250
-F 0 "R?" H 1109 1296 50  0000 L CNN
-F 1 "27k" H 1109 1205 50  0000 L CNN
-F 2 "" H 1050 1250 50  0001 C CNN
-F 3 "~" H 1050 1250 50  0001 C CNN
-	1    1050 1250
+L Connector:USB_B_Micro J?
+U 1 1 61582E96
+P 3300 3850
+F 0 "J?" H 3355 4317 50  0000 C CNN
+F 1 "USB_B_Micro" H 3355 4226 50  0000 C CNN
+F 2 "" H 3450 3800 50  0001 C CNN
+F 3 "~" H 3450 3800 50  0001 C CNN
+	1    3300 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 1350 1050 1700
-$Comp
-L Device:R_Small R?
-U 1 1 5B899AA2
-P 1050 1950
-F 0 "R?" H 1109 1996 50  0000 L CNN
-F 1 "10k" H 1109 1905 50  0000 L CNN
-F 2 "" H 1050 1950 50  0001 C CNN
-F 3 "~" H 1050 1950 50  0001 C CNN
-	1    1050 1950
-	1    0    0    -1  
-$EndComp
+	3600 3850 4350 3850
+Wire Wire Line
+	4350 3850 4550 4050
+Wire Wire Line
+	4900 4050 4550 4050
+Wire Wire Line
+	4900 3850 4450 3850
+Wire Wire Line
+	4450 3850 4350 3950
+Wire Wire Line
+	4350 3950 3600 3950
+Text Label 3700 3850 0    50   ~ 0
+PORT_D+
+Text Label 3700 3950 0    50   ~ 0
+PORT_D-
+NoConn ~ 3600 4050
 $Comp
 L power:GND #PWR?
-U 1 1 5B899B72
-P 1050 2150
-F 0 "#PWR?" H 1050 1900 50  0001 C CNN
-F 1 "GND" H 1055 1977 50  0000 C CNN
-F 2 "" H 1050 2150 50  0001 C CNN
-F 3 "" H 1050 2150 50  0001 C CNN
-	1    1050 2150
+U 1 1 615FD047
+P 3300 4450
+F 0 "#PWR?" H 3300 4200 50  0001 C CNN
+F 1 "GND" H 3305 4277 50  0000 C CNN
+F 2 "" H 3300 4450 50  0001 C CNN
+F 3 "" H 3300 4450 50  0001 C CNN
+	1    3300 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 2150 1050 2100
+	3300 4450 3300 4350
 Wire Wire Line
-	1050 1050 1050 1100
+	3300 4350 3200 4350
 Wire Wire Line
-	1550 1700 1500 1700
-Connection ~ 1050 1700
+	3200 4350 3200 4250
+Connection ~ 3300 4350
 Wire Wire Line
-	1050 1700 1050 1850
-Wire Wire Line
-	1550 1500 1300 1500
-Text Label 1300 1500 0    50   ~ 0
-CC1
-$Comp
-L ecp5_mainboard-rescue:LM393-Comparator U?
-U 2 1 5B8D1F68
-P 1850 2150
-AR Path="/5B8D1F68" Ref="U?"  Part="2" 
-AR Path="/62793184/5B8D1F68" Ref="U?"  Part="2" 
-F 0 "U?" H 1850 2517 50  0000 C CNN
-F 1 "LM393" H 1850 2426 50  0000 C CNN
-F 2 "" H 1850 2150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 1850 2150 50  0001 C CNN
-	2    1850 2150
-	1    0    0    -1  
-$EndComp
-Text GLabel 1050 1050 1    50   Output ~ 0
-DBGVbus
-Wire Wire Line
-	1550 2050 1300 2050
-$Comp
-L ecp5_mainboard-rescue:LM393-Comparator U?
-U 3 1 5B90CA44
-P 800 1550
-AR Path="/5B90CA44" Ref="U?"  Part="3" 
-AR Path="/62793184/5B90CA44" Ref="U?"  Part="3" 
-F 0 "U?" H 758 1596 50  0000 L CNN
-F 1 "LM393" H 758 1505 50  0000 L CNN
-F 2 "" H 800 1550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 800 1550 50  0001 C CNN
-	3    800  1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	700  1850 700  2100
-Wire Wire Line
-	700  2100 1050 2100
-Connection ~ 1050 2100
-Wire Wire Line
-	1050 2100 1050 2050
-Wire Wire Line
-	700  1250 700  1100
-Wire Wire Line
-	700  1100 1050 1100
-Connection ~ 1050 1100
-Wire Wire Line
-	1050 1100 1050 1150
-$Comp
-L Device:C_Small C?
-U 1 1 5B92B36E
-P 1350 1100
-F 0 "C?" V 1121 1100 50  0000 C CNN
-F 1 "1µ" V 1212 1100 50  0000 C CNN
-F 2 "" H 1350 1100 50  0001 C CNN
-F 3 "~" H 1350 1100 50  0001 C CNN
-	1    1350 1100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1250 1100 1050 1100
-$Comp
-L power:GND #PWR?
-U 1 1 5B93B194
-P 1600 1100
-F 0 "#PWR?" H 1600 850 50  0001 C CNN
-F 1 "GND" V 1605 972 50  0000 R CNN
-F 2 "" H 1600 1100 50  0001 C CNN
-F 3 "" H 1600 1100 50  0001 C CNN
-	1    1600 1100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1600 1100 1450 1100
-Wire Wire Line
-	1550 2250 1500 2250
-Wire Wire Line
-	1500 2250 1500 1700
-Connection ~ 1500 1700
-Wire Wire Line
-	1500 1700 1050 1700
-Text Label 1300 2050 0    50   ~ 0
-CC2
-Wire Wire Line
-	2150 2150 2300 2150
-Wire Wire Line
-	2300 2150 2300 1900
-Wire Wire Line
-	2300 1600 2150 1600
-$Comp
-L Device:R_Small R?
-U 1 1 5B97DDFE
-P 2300 1400
-F 0 "R?" H 2359 1446 50  0000 L CNN
-F 1 "10k" H 2359 1355 50  0000 L CNN
-F 2 "" H 2300 1400 50  0001 C CNN
-F 3 "~" H 2300 1400 50  0001 C CNN
-	1    2300 1400
-	1    0    0    -1  
-$EndComp
-Connection ~ 2300 2150
-Wire Wire Line
-	2300 1500 2300 1600
-Connection ~ 2300 1600
-Text GLabel 2300 1200 1    50   Output ~ 0
-DBGVbus
-Wire Wire Line
-	2300 1200 2300 1300
-Wire Wire Line
-	2300 1900 2600 1900
-Connection ~ 2300 1900
-Wire Wire Line
-	2300 1900 2300 1600
-Text GLabel 2600 1900 2    50   Output ~ 0
-3A_EN
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5BA63AE2
-P 3250 2400
-AR Path="/5B5D9B41/5BA63AE2" Ref="Q?"  Part="1" 
-AR Path="/62793184/5BA63AE2" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3455 2446 50  0000 L CNN
-F 1 "BSH111BKR" H 3455 2355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3450 2325 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3250 2400 50  0001 L CNN
-	1    3250 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 2400 2300 2400
-Wire Wire Line
-	2300 2150 2300 2400
-$Comp
-L power:GND #PWR?
-U 1 1 5BA879F8
-P 3350 2700
-F 0 "#PWR?" H 3350 2450 50  0001 C CNN
-F 1 "GND" H 3355 2527 50  0000 C CNN
-F 2 "" H 3350 2700 50  0001 C CNN
-F 3 "" H 3350 2700 50  0001 C CNN
-	1    3350 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3350 2700 3350 2600
-$Comp
-L Device:LED D?
-U 1 1 5BA99D81
-P 3350 1950
-F 0 "D?" V 3388 1832 50  0000 R CNN
-F 1 "GREEN" V 3297 1832 50  0000 R CNN
-F 2 "" H 3350 1950 50  0001 C CNN
-F 3 "~" H 3350 1950 50  0001 C CNN
-	1    3350 1950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3350 2100 3350 2200
-$Comp
-L Device:R_Small R?
-U 1 1 5BAAC418
-P 3350 1550
-F 0 "R?" H 3409 1596 50  0000 L CNN
-F 1 "1.5k" H 3409 1505 50  0000 L CNN
-F 2 "" H 3350 1550 50  0001 C CNN
-F 3 "~" H 3350 1550 50  0001 C CNN
-	1    3350 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3350 1650 3350 1800
-Text GLabel 3350 1200 1    50   Output ~ 0
-DBGVbus
-Wire Wire Line
-	3350 1200 3350 1450
+	3300 4350 3300 4250
+NoConn ~ 3600 3650
 $EndSCHEMATC
