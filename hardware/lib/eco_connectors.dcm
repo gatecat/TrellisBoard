@@ -11,7 +11,7 @@ F https://abracon.com/Magnetics/lan/ARJ-202B.pdf
 $ENDCMP
 #
 $CMP JK0654219
-D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX 
+D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX
 $ENDCMP
 #
 $CMP PCIe_x4_EDGE
