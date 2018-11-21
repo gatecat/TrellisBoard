@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L ecp5_mainboard-rescue:Barrel_Jack-Connector J1
 U 1 1 5B5D9C9C
-P 1400 2650
-F 0 "J1" H 1478 2975 50  0000 C CNN
-F 1 "12V_EXT" H 1478 2884 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1450 2610 50  0001 C CNN
-F 3 "~" H 1450 2610 50  0001 C CNN
-	1    1400 2650
+P 1950 2650
+F 0 "J1" H 2028 2975 50  0000 C CNN
+F 1 "12V_EXT" H 2028 2884 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2000 2610 50  0001 C CNN
+F 3 "~" H 2000 2610 50  0001 C CNN
+	1    1950 2650
 	1    0    0    -1  
 $EndComp
 Text GLabel 1600 3600 0    50   Input ~ 0
@@ -41,53 +41,20 @@ $EndComp
 $Comp
 L Device:Fuse F2
 U 1 1 5B5DA0F9
-P 2150 2550
-F 0 "F2" V 1953 2550 50  0000 C CNN
-F 1 "3A" V 2044 2550 50  0000 C CNN
-F 2 "Custom Parts:FuseHolder_SMD_Shurter_0031.7701.11" V 2080 2550 50  0001 C CNN
-F 3 "~" H 2150 2550 50  0001 C CNN
-	1    2150 2550
+P 2700 2550
+F 0 "F2" V 2503 2550 50  0000 C CNN
+F 1 "3A" V 2594 2550 50  0000 C CNN
+F 2 "Custom Parts:FuseHolder_SMD_Shurter_0031.7701.11" V 2630 2550 50  0001 C CNN
+F 3 "~" H 2700 2550 50  0001 C CNN
+	1    2700 2550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1700 2550 2000 2550
+	2250 2550 2550 2550
 Wire Wire Line
-	1700 2750 1800 2750
-Wire Wire Line
-	1900 2750 1900 2850
-$Comp
-L Device:EMI_Filter_CommonMode FL1
-U 1 1 5B5DA3C4
-P 2750 2700
-F 0 "FL1" H 2750 2978 50  0000 C CNN
-F 1 "EMI_Filter_CommonMode" H 2750 2887 50  0000 C CNN
-F 2 "" V 2750 2740 50  0001 C CNN
-F 3 "~" V 2750 2740 50  0000 C CNN
-	1    2750 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 2550 2450 2550
-Wire Wire Line
-	2450 2550 2450 2600
-Wire Wire Line
-	2450 2600 2550 2600
-Wire Wire Line
-	2550 2800 2450 2800
-Wire Wire Line
-	2450 2800 2450 2850
-Wire Wire Line
-	1900 2850 2450 2850
-Wire Wire Line
-	2950 2800 3050 2800
-Wire Wire Line
-	3050 2800 3050 3350
+	2250 2750 2350 2750
 Wire Wire Line
 	3050 3350 3200 3350
-Wire Wire Line
-	2950 2600 3050 2600
-Wire Wire Line
-	3050 2600 3050 2400
 Wire Wire Line
 	3050 2400 3200 2400
 $Comp
@@ -95,7 +62,7 @@ L Device:D_Small D3
 U 1 1 5B5DA9BE
 P 3200 2700
 F 0 "D3" V 3154 2768 50  0000 L CNN
-F 1 "PPS1040" V 3245 2768 50  0000 L CNN
+F 1 "MBR15U60" V 3245 2768 50  0000 L CNN
 F 2 "" V 3200 2700 50  0001 C CNN
 F 3 "~" V 3200 2700 50  0001 C CNN
 	1    3200 2700
@@ -106,12 +73,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 2800 3200 3350
 Wire Wire Line
-	1700 2650 1800 2650
+	2250 2650 2350 2650
 Wire Wire Line
-	1800 2650 1800 2750
-Connection ~ 1800 2750
-Wire Wire Line
-	1800 2750 1900 2750
+	2350 2650 2350 2750
+Connection ~ 2350 2750
 Connection ~ 3200 3350
 $Comp
 L power:+12V #PWR09
@@ -153,7 +118,7 @@ Wire Wire Line
 	1900 3600 1600 3600
 Wire Wire Line
 	2200 3600 2600 3600
-Text Notes 1950 2700 0    50   ~ 0
+Text Notes 2550 2650 0    50   ~ 0
 in socket
 Text Notes 1800 3900 0    50   ~ 0
 fit socket but\nno fuse, optional\nfor PCIe power
@@ -352,7 +317,7 @@ F 3 "" H 8050 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 2150 8050 2200
-Text Notes 1250 2950 0    50   ~ 0
+Text Notes 1800 2950 0    50   ~ 0
 12V/2.5A\ninput
 $Comp
 L eco_power:TPS62823 U8
@@ -360,7 +325,7 @@ U 1 1 5B7059F5
 P 11150 2050
 F 0 "U8" H 11150 2615 50  0000 C CNN
 F 1 "TPS62823" H 11150 2524 50  0000 C CNN
-F 2 "" H 11150 2050 50  0001 C CNN
+F 2 "Custom Parts:TI_VSON-HR_1.5x2mm_p0.5mm" H 11150 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps62823.pdf" H 11150 2050 50  0001 C CNN
 	1    11150 2050
 	1    0    0    -1  
@@ -548,7 +513,7 @@ U 1 1 5B7A0A18
 P 11150 3550
 F 0 "U9" H 11150 4115 50  0000 C CNN
 F 1 "TPS62823" H 11150 4024 50  0000 C CNN
-F 2 "" H 11150 3550 50  0001 C CNN
+F 2 "Custom Parts:TI_VSON-HR_1.5x2mm_p0.5mm" H 11150 3550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps62823.pdf" H 11150 3550 50  0001 C CNN
 	1    11150 3550
 	1    0    0    -1  
@@ -741,7 +706,7 @@ U 1 1 5B7AA29B
 P 11150 5100
 F 0 "U10" H 11150 5665 50  0000 C CNN
 F 1 "TPS62823" H 11150 5574 50  0000 C CNN
-F 2 "" H 11150 5100 50  0001 C CNN
+F 2 "Custom Parts:TI_VSON-HR_1.5x2mm_p0.5mm" H 11150 5100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps62823.pdf" H 11150 5100 50  0001 C CNN
 	1    11150 5100
 	1    0    0    -1  
@@ -1298,7 +1263,7 @@ U 1 1 5B989F17
 P 11100 6550
 F 0 "U7" H 11100 7115 50  0000 C CNN
 F 1 "TPS62823" H 11100 7024 50  0000 C CNN
-F 2 "" H 11100 6550 50  0001 C CNN
+F 2 "Custom Parts:TI_VSON-HR_1.5x2mm_p0.5mm" H 11100 6550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps62823.pdf" H 11100 6550 50  0001 C CNN
 	1    11100 6550
 	1    0    0    -1  
@@ -2841,4 +2806,12 @@ $EndComp
 Wire Wire Line
 	8500 2150 8500 2200
 Connection ~ 8500 2200
+Wire Wire Line
+	3050 2750 3050 3350
+Wire Wire Line
+	2350 2750 3050 2750
+Wire Wire Line
+	3050 2550 3050 2400
+Wire Wire Line
+	2850 2550 3050 2550
 $EndSCHEMATC
