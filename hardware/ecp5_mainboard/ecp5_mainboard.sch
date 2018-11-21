@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "TrellisBoard"
+Date "2018-11-20"
+Rev "1.0"
+Comp "David Shah"
 Comment1 ""
 Comment2 ""
 Comment3 ""
