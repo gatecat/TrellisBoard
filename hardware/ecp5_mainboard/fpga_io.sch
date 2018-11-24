@@ -15,18 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ECP5UM5G:ECP5UM5G_85_CABGA756 U15
-U 4 1 61FB1AA1
-P 2350 1950
-F 0 "U15" H 3481 -42 60  0000 L CNN
-F 1 "ECP5UM5G_85_CABGA756" H 3481 -148 60  0000 L CNN
-F 2 "Custom Parts:CABGA756_27x27mm_p0.8mm" H 2350 1950 50  0001 C CNN
-F 3 "" H 2350 1950 50  0001 C CNN
-F 4 "ECP5UM5G_85" H 2500 1900 60  0001 R CNN "manf#"
-	4    2350 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+1V35 #PWR0198
 U 1 1 61FB1C31
 P 3200 850
@@ -156,54 +144,50 @@ Text GLabel 650  3350 0    50   Input ~ 0
 DDR3_Vref
 Wire Wire Line
 	650  3350 750  3350
-Text GLabel 2150 4250 0    50   BiDi ~ 0
+Text GLabel 2150 2650 0    50   BiDi ~ 0
 DDR3_DQS1+
-Text GLabel 2150 4050 0    50   BiDi ~ 0
+Text GLabel 2150 2450 0    50   BiDi ~ 0
 DDR3_DQS1-
-Wire Bus Line
-	2550 3500 3450 3500
-Wire Bus Line
-	2550 5100 3450 5100
-Text GLabel 2150 3550 0    50   BiDi ~ 0
+Text GLabel 2150 1950 0    50   BiDi ~ 0
 DDR3_DQ8
-Text GLabel 2150 3650 0    50   BiDi ~ 0
+Text GLabel 2150 2050 0    50   BiDi ~ 0
 DDR3_DQ9
-Text GLabel 2150 3750 0    50   BiDi ~ 0
+Text GLabel 2150 2150 0    50   BiDi ~ 0
 DDR3_DQ10
-Text GLabel 2150 3850 0    50   BiDi ~ 0
+Text GLabel 2150 2250 0    50   BiDi ~ 0
 DDR3_DQ11
-Text GLabel 2150 3950 0    50   BiDi ~ 0
+Text GLabel 2150 2350 0    50   BiDi ~ 0
 DDR3_DQ12
-Text GLabel 2150 4150 0    50   BiDi ~ 0
+Text GLabel 2150 2550 0    50   BiDi ~ 0
 DDR3_DQ13
-Text GLabel 2150 4350 0    50   BiDi ~ 0
+Text GLabel 2150 2750 0    50   BiDi ~ 0
 DDR3_DQ14
-Text GLabel 2150 4450 0    50   BiDi ~ 0
+Text GLabel 2150 2850 0    50   BiDi ~ 0
 DDR3_DQ15
-Text GLabel 2150 4550 0    50   BiDi ~ 0
+Text GLabel 2150 2950 0    50   BiDi ~ 0
 DDR3_DM1
 Wire Wire Line
-	2150 3550 2350 3550
+	2150 1950 2350 1950
 Wire Wire Line
-	2150 3650 2350 3650
+	2150 2050 2350 2050
 Wire Wire Line
-	2150 3750 2350 3750
+	2150 2150 2350 2150
 Wire Wire Line
-	2150 3850 2350 3850
+	2150 2250 2350 2250
 Wire Wire Line
-	2150 3950 2350 3950
+	2150 2350 2350 2350
 Wire Wire Line
-	2150 4050 2350 4050
+	2150 2450 2350 2450
 Wire Wire Line
-	2150 4150 2350 4150
+	2150 2550 2350 2550
 Wire Wire Line
-	2150 4250 2350 4250
+	2150 2650 2350 2650
 Wire Wire Line
-	2150 4350 2350 4350
+	2150 2750 2350 2750
 Wire Wire Line
-	2150 4450 2350 4450
+	2150 2850 2350 2850
 Wire Wire Line
-	2150 4550 2350 4550
+	2150 2950 2350 2950
 Wire Wire Line
 	15400 1800 14800 1800
 Wire Wire Line
@@ -212,50 +196,50 @@ Text Label 14800 1800 0    50   ~ 0
 CLK100-
 Text Label 14800 2000 0    50   ~ 0
 CLK100+
-Text GLabel 2150 5850 0    50   BiDi ~ 0
+Text GLabel 5400 5800 0    50   BiDi ~ 0
 DDR3_DQS2+
-Text GLabel 2150 5650 0    50   BiDi ~ 0
+Text GLabel 5400 5600 0    50   BiDi ~ 0
 DDR3_DQS2-
-Text GLabel 2150 5150 0    50   BiDi ~ 0
+Text GLabel 5400 5100 0    50   BiDi ~ 0
 DDR3_DQ16
-Text GLabel 2150 5250 0    50   BiDi ~ 0
+Text GLabel 5400 5200 0    50   BiDi ~ 0
 DDR3_DQ17
-Text GLabel 2150 5350 0    50   BiDi ~ 0
+Text GLabel 5400 5300 0    50   BiDi ~ 0
 DDR3_DQ18
-Text GLabel 2150 5450 0    50   BiDi ~ 0
+Text GLabel 5400 5400 0    50   BiDi ~ 0
 DDR3_DQ19
-Text GLabel 2150 5550 0    50   BiDi ~ 0
+Text GLabel 5400 5500 0    50   BiDi ~ 0
 DDR3_DQ20
-Text GLabel 2150 5750 0    50   BiDi ~ 0
+Text GLabel 5400 5700 0    50   BiDi ~ 0
 DDR3_DQ21
-Text GLabel 2150 5950 0    50   BiDi ~ 0
+Text GLabel 5400 5900 0    50   BiDi ~ 0
 DDR3_DQ22
-Text GLabel 2150 6050 0    50   BiDi ~ 0
+Text GLabel 5400 6000 0    50   BiDi ~ 0
 DDR3_DQ23
 Wire Wire Line
-	2150 5150 2350 5150
+	5400 5100 5600 5100
 Wire Wire Line
-	2150 5250 2350 5250
+	5400 5200 5600 5200
 Wire Wire Line
-	2150 5350 2350 5350
+	5400 5300 5600 5300
 Wire Wire Line
-	2150 5450 2350 5450
+	5400 5400 5600 5400
 Wire Wire Line
-	2150 5550 2350 5550
+	5400 5500 5600 5500
 Wire Wire Line
-	2150 5650 2350 5650
+	5400 5600 5600 5600
 Wire Wire Line
-	2150 5750 2350 5750
+	5400 5700 5600 5700
 Wire Wire Line
-	2150 5850 2350 5850
+	5400 5800 5600 5800
 Wire Wire Line
-	2150 5950 2350 5950
+	5400 5900 5600 5900
 Wire Wire Line
-	2150 6050 2350 6050
-Text GLabel 2150 6150 0    50   BiDi ~ 0
+	5400 6000 5600 6000
+Text GLabel 5400 6100 0    50   BiDi ~ 0
 DDR3_DM2
 Wire Wire Line
-	2150 6150 2350 6150
+	5400 6100 5600 6100
 $Comp
 L Device:C_Small C218
 U 1 1 61FE1443
@@ -446,203 +430,203 @@ Text GLabel 5400 6800 0    50   Input ~ 0
 DDR3_Vref
 Wire Wire Line
 	5400 6800 5600 6800
-Text GLabel 5400 7400 0    50   BiDi ~ 0
+Text GLabel 5400 4200 0    50   BiDi ~ 0
 DDR3_DQS3+
 Wire Wire Line
-	5400 7400 5600 7400
-Text GLabel 5400 7200 0    50   BiDi ~ 0
+	5400 4200 5600 4200
+Text GLabel 5400 4000 0    50   BiDi ~ 0
 DDR3_DQS3-
-Wire Wire Line
-	5400 7200 5600 7200
-Wire Wire Line
-	5600 6700 5400 6700
-Text GLabel 5400 6700 0    50   BiDi ~ 0
-DDR3_DQ24
-Text GLabel 5400 6900 0    50   BiDi ~ 0
-DDR3_DQ25
-Text GLabel 5400 7000 0    50   BiDi ~ 0
-DDR3_DQ26
-Text GLabel 5400 7100 0    50   BiDi ~ 0
-DDR3_DQ27
-Text GLabel 5400 7300 0    50   BiDi ~ 0
-DDR3_DQ28
-Text GLabel 5400 7500 0    50   BiDi ~ 0
-DDR3_DQ29
-Text GLabel 5400 7600 0    50   BiDi ~ 0
-DDR3_DQ30
-Text GLabel 5400 7700 0    50   BiDi ~ 0
-DDR3_DQ31
-Wire Wire Line
-	5400 7700 5600 7700
-Wire Wire Line
-	5600 7600 5400 7600
-Wire Wire Line
-	5400 7500 5600 7500
-Wire Wire Line
-	5600 7300 5400 7300
-Wire Wire Line
-	5400 7100 5600 7100
-Wire Wire Line
-	5600 7000 5400 7000
-Wire Wire Line
-	5400 6900 5600 6900
-Text GLabel 5400 5100 0    50   Output ~ 0
-DDR3_A0
-Text GLabel 5400 5200 0    50   Output ~ 0
-DDR3_A1
-Text GLabel 5400 5300 0    50   Output ~ 0
-DDR3_A2
-Text GLabel 5400 5400 0    50   Output ~ 0
-DDR3_A3
-Text GLabel 5400 5500 0    50   Output ~ 0
-DDR3_A4
-Text GLabel 5400 5600 0    50   Output ~ 0
-DDR3_A5
-Text GLabel 5400 5700 0    50   Output ~ 0
-DDR3_A6
-Text GLabel 5400 5800 0    50   Output ~ 0
-DDR3_A7
-Text GLabel 5400 5900 0    50   Output ~ 0
-DDR3_A8
-Text GLabel 5400 6000 0    50   Output ~ 0
-DDR3_A9
-Text GLabel 5400 6100 0    50   Output ~ 0
-DDR3_A10
-Text GLabel 5400 6200 0    50   Output ~ 0
-DDR3_A11
-Text GLabel 5400 6300 0    50   Output ~ 0
-DDR3_A12
-Text GLabel 5400 4900 0    50   Output ~ 0
-DDR3_A13
-Text GLabel 5400 5000 0    50   Output ~ 0
-DDR3_A14
-Wire Wire Line
-	5400 5100 5600 5100
-Wire Wire Line
-	5400 5200 5600 5200
-Wire Wire Line
-	5400 5300 5600 5300
-Wire Wire Line
-	5400 5400 5600 5400
-Wire Wire Line
-	5400 5500 5600 5500
-Wire Wire Line
-	5400 5600 5600 5600
-Wire Wire Line
-	5400 5700 5600 5700
-Wire Wire Line
-	5400 5800 5600 5800
-Wire Wire Line
-	5400 5900 5600 5900
-Wire Wire Line
-	5400 6000 5600 6000
-Wire Wire Line
-	5400 6100 5600 6100
-Wire Wire Line
-	5400 6200 5600 6200
-Wire Wire Line
-	5400 6300 5600 6300
-Wire Wire Line
-	5400 4900 5600 4900
-Wire Wire Line
-	5400 5000 5600 5000
-NoConn ~ 5600 6600
-Text GLabel 5400 4800 0    50   Output ~ 0
-DDR3_BA0
-Text GLabel 5400 4700 0    50   Output ~ 0
-DDR3_BA1
-Text GLabel 5400 4600 0    50   Output ~ 0
-DDR3_BA2
-Text GLabel 5400 4500 0    50   Output ~ 0
-DDR3_RAS
-Text GLabel 5400 4400 0    50   Output ~ 0
-DDR3_CAS
-Text GLabel 5400 4200 0    50   Output ~ 0
-DDR3_CKE
-Text GLabel 5400 4100 0    50   Output ~ 0
-DDR3_WE
-Text GLabel 5400 4000 0    50   Output ~ 0
-DDR3_ODT
-Text GLabel 5400 3900 0    50   Output ~ 0
-DDR3_RESET
-Text GLabel 5400 4300 0    50   Output ~ 0
-DDR3_CS
-Text GLabel 5400 7800 0    50   BiDi ~ 0
-DDR3_DM3
-Wire Wire Line
-	5400 7800 5600 7800
-Wire Wire Line
-	5400 3900 5600 3900
 Wire Wire Line
 	5400 4000 5600 4000
 Wire Wire Line
-	5400 4100 5600 4100
+	5600 4100 5400 4100
+Text GLabel 5400 4100 0    50   BiDi ~ 0
+DDR3_DQ24
+Text GLabel 5400 4300 0    50   BiDi ~ 0
+DDR3_DQ25
+Text GLabel 5400 4400 0    50   BiDi ~ 0
+DDR3_DQ26
+Text GLabel 5400 4500 0    50   BiDi ~ 0
+DDR3_DQ27
+Text GLabel 5400 4600 0    50   BiDi ~ 0
+DDR3_DQ28
+Text GLabel 5400 4700 0    50   BiDi ~ 0
+DDR3_DQ29
+Text GLabel 5400 4800 0    50   BiDi ~ 0
+DDR3_DQ30
+Text GLabel 5400 4900 0    50   BiDi ~ 0
+DDR3_DQ31
 Wire Wire Line
-	5400 4200 5600 4200
+	5400 4900 5600 4900
 Wire Wire Line
-	5400 4300 5600 4300
-Wire Wire Line
-	5400 4400 5600 4400
-Wire Wire Line
-	5400 4500 5600 4500
-Wire Wire Line
-	5400 4600 5600 4600
+	5600 4800 5400 4800
 Wire Wire Line
 	5400 4700 5600 4700
 Wire Wire Line
-	5400 4800 5600 4800
-Text GLabel 5400 3800 0    50   Output ~ 0
+	5600 4600 5400 4600
+Wire Wire Line
+	5400 4500 5600 4500
+Wire Wire Line
+	5600 4400 5400 4400
+Wire Wire Line
+	5400 4300 5600 4300
+Text GLabel 2150 5050 0    50   Output ~ 0
+DDR3_A0
+Text GLabel 2150 5150 0    50   Output ~ 0
+DDR3_A1
+Text GLabel 2150 5250 0    50   Output ~ 0
+DDR3_A2
+Text GLabel 2150 5350 0    50   Output ~ 0
+DDR3_A3
+Text GLabel 2150 5450 0    50   Output ~ 0
+DDR3_A4
+Text GLabel 2150 5550 0    50   Output ~ 0
+DDR3_A5
+Text GLabel 2150 5650 0    50   Output ~ 0
+DDR3_A6
+Text GLabel 2150 5750 0    50   Output ~ 0
+DDR3_A7
+Text GLabel 2150 5850 0    50   Output ~ 0
+DDR3_A8
+Text GLabel 2150 5950 0    50   Output ~ 0
+DDR3_A9
+Text GLabel 2150 6050 0    50   Output ~ 0
+DDR3_A10
+Text GLabel 2150 6150 0    50   Output ~ 0
+DDR3_A11
+Text GLabel 2150 6250 0    50   Output ~ 0
+DDR3_A12
+Text GLabel 2150 4850 0    50   Output ~ 0
+DDR3_A13
+Text GLabel 2150 4950 0    50   Output ~ 0
+DDR3_A14
+Wire Wire Line
+	2150 5050 2350 5050
+Wire Wire Line
+	2150 5150 2350 5150
+Wire Wire Line
+	2150 5250 2350 5250
+Wire Wire Line
+	2150 5350 2350 5350
+Wire Wire Line
+	2150 5450 2350 5450
+Wire Wire Line
+	2150 5550 2350 5550
+Wire Wire Line
+	2150 5650 2350 5650
+Wire Wire Line
+	2150 5750 2350 5750
+Wire Wire Line
+	2150 5850 2350 5850
+Wire Wire Line
+	2150 5950 2350 5950
+Wire Wire Line
+	2150 6050 2350 6050
+Wire Wire Line
+	2150 6150 2350 6150
+Wire Wire Line
+	2150 6250 2350 6250
+Wire Wire Line
+	2150 4850 2350 4850
+Wire Wire Line
+	2150 4950 2350 4950
+NoConn ~ 5600 6600
+Text GLabel 2150 4750 0    50   Output ~ 0
+DDR3_BA0
+Text GLabel 2150 4650 0    50   Output ~ 0
+DDR3_BA1
+Text GLabel 2150 4550 0    50   Output ~ 0
+DDR3_BA2
+Text GLabel 2150 4450 0    50   Output ~ 0
+DDR3_RAS
+Text GLabel 2150 4350 0    50   Output ~ 0
+DDR3_CAS
+Text GLabel 2150 4150 0    50   Output ~ 0
+DDR3_CKE
+Text GLabel 2150 4050 0    50   Output ~ 0
+DDR3_WE
+Text GLabel 2150 3950 0    50   Output ~ 0
+DDR3_ODT
+Text GLabel 2150 3750 0    50   Output ~ 0
+DDR3_RESET
+Text GLabel 2150 4250 0    50   Output ~ 0
+DDR3_CS
+Text GLabel 5400 5000 0    50   BiDi ~ 0
+DDR3_DM3
+Wire Wire Line
+	5400 5000 5600 5000
+Wire Wire Line
+	2150 3750 2350 3750
+Wire Wire Line
+	2150 3950 2350 3950
+Wire Wire Line
+	2150 4050 2350 4050
+Wire Wire Line
+	2150 4150 2350 4150
+Wire Wire Line
+	2150 4250 2350 4250
+Wire Wire Line
+	2150 4350 2350 4350
+Wire Wire Line
+	2150 4450 2350 4450
+Wire Wire Line
+	2150 4550 2350 4550
+Wire Wire Line
+	2150 4650 2350 4650
+Wire Wire Line
+	2150 4750 2350 4750
+Text GLabel 2150 3850 0    50   Output ~ 0
 DDR3_CLK+
-Text GLabel 5400 3600 0    50   Output ~ 0
+Text GLabel 2150 3650 0    50   Output ~ 0
 DDR3_CLK-
 Wire Wire Line
-	5400 3600 5600 3600
+	2150 3650 2350 3650
 Wire Wire Line
-	5600 3800 5400 3800
-Text GLabel 2150 2650 0    50   BiDi ~ 0
+	2350 3850 2150 3850
+Text GLabel 5400 7400 0    50   BiDi ~ 0
 DDR3_DQS0+
-Text GLabel 2150 2450 0    50   BiDi ~ 0
+Text GLabel 5400 7200 0    50   BiDi ~ 0
 DDR3_DQS0-
-Text GLabel -1250 1700 0    50   BiDi ~ 0
+Text GLabel 5400 6700 0    50   BiDi ~ 0
 DDR3_DQ0
-Text GLabel -1250 1800 0    50   BiDi ~ 0
+Text GLabel 5400 7800 0    50   BiDi ~ 0
 DDR3_DQ1
-Text GLabel -1250 1900 0    50   BiDi ~ 0
+Text GLabel 5400 6900 0    50   BiDi ~ 0
 DDR3_DQ2
-Text GLabel -1250 2000 0    50   BiDi ~ 0
+Text GLabel 5400 7000 0    50   BiDi ~ 0
 DDR3_DQ3
-Text GLabel -1250 2100 0    50   BiDi ~ 0
+Text GLabel 5400 7100 0    50   BiDi ~ 0
 DDR3_DQ4
-Text GLabel -1250 2600 0    50   BiDi ~ 0
+Text GLabel 5400 7300 0    50   BiDi ~ 0
 DDR3_DQ5
-Text GLabel -1250 2250 0    50   BiDi ~ 0
+Text GLabel 5400 7500 0    50   BiDi ~ 0
 DDR3_DQ6
-Text GLabel -1250 2350 0    50   BiDi ~ 0
+Text GLabel 5400 7600 0    50   BiDi ~ 0
 DDR3_DQ7
-Text GLabel -1250 2450 0    50   BiDi ~ 0
+Text GLabel 5400 7700 0    50   BiDi ~ 0
 DDR3_DM0
 Wire Wire Line
-	-1250 1700 -1050 1700
+	5400 6700 5600 6700
 Wire Wire Line
-	-1250 1800 -1050 1800
+	5400 7800 5600 7800
 Wire Wire Line
-	-1250 1900 -1050 1900
+	5400 6900 5600 6900
 Wire Wire Line
-	-1250 2000 -1050 2000
+	5400 7000 5600 7000
 Wire Wire Line
-	-1250 2100 -1050 2100
+	5400 7100 5600 7100
 Wire Wire Line
-	2150 2450 2350 2450
+	5400 7200 5600 7200
 Wire Wire Line
-	-1250 2600 -1050 2600
+	5400 7300 5600 7300
 Wire Wire Line
-	2150 2650 2350 2650
+	5400 7400 5600 7400
 Wire Wire Line
-	-1250 2250 -1050 2250
+	5400 7500 5600 7500
 Wire Wire Line
-	-1250 2350 -1050 2350
+	5400 7600 5600 7600
 Wire Wire Line
-	-1250 2450 -1050 2450
+	5400 7700 5600 7700
 Text GLabel 5400 1900 0    50   Input ~ 0
 DIP_SW0
 Text GLabel 5400 2000 0    50   Input ~ 0
@@ -4503,19 +4487,10 @@ NoConn ~ 16500 14000
 NoConn ~ 16500 12500
 NoConn ~ 15400 2600
 NoConn ~ 15400 1900
-NoConn ~ 2350 4650
-NoConn ~ 2350 4750
-NoConn ~ 2350 4850
-NoConn ~ 2350 4950
-NoConn ~ 2350 5050
-NoConn ~ 2350 6250
 NoConn ~ 2350 6350
 NoConn ~ 2350 6450
 NoConn ~ 2350 6550
 NoConn ~ 2350 6650
-NoConn ~ 2350 3050
-NoConn ~ 2350 3150
-NoConn ~ 2350 3250
 NoConn ~ 2350 3450
 NoConn ~ 5600 2700
 NoConn ~ 5600 3200
@@ -4609,4 +4584,68 @@ Wire Wire Line
 	20500 5700 20650 5700
 Wire Wire Line
 	20300 5700 20150 5700
+NoConn ~ 2350 3050
+Wire Bus Line
+	2550 5100 3450 5100
+Wire Bus Line
+	2550 3500 3450 3500
+Wire Bus Line
+	2850 2650 2950 2650
+Wire Bus Line
+	2950 2650 2950 2450
+Wire Bus Line
+	2950 2450 2850 2450
+Wire Bus Line
+	2850 4250 2950 4250
+Wire Bus Line
+	2950 4250 2950 4050
+Wire Bus Line
+	2950 4050 2850 4050
+Wire Bus Line
+	2850 5850 3000 5850
+Wire Bus Line
+	3000 5850 3000 5650
+Wire Bus Line
+	3000 5650 2850 5650
+Wire Bus Line
+	6100 7400 6200 7400
+Wire Bus Line
+	6200 7400 6200 7200
+Wire Bus Line
+	6200 7200 6100 7200
+Wire Bus Line
+	6100 5600 6200 5600
+Wire Bus Line
+	6200 5600 6200 5800
+Wire Bus Line
+	6200 5800 6100 5800
+Wire Bus Line
+	6200 4200 6200 4000
+Wire Bus Line
+	6200 4000 6100 4000
+Wire Bus Line
+	6100 4200 6200 4200
+Wire Bus Line
+	6100 2600 6200 2600
+Wire Bus Line
+	6200 2600 6200 2400
+Wire Bus Line
+	6200 2400 6100 2400
+NoConn ~ 5600 3600
+$Comp
+L ECP5UM5G:ECP5UM5G_85_CABGA756 U15
+U 4 1 61FB1AA1
+P 2350 1950
+F 0 "U15" H 3481 -42 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 3481 -148 60  0000 L CNN
+F 2 "Custom Parts:CABGA756_27x27mm_p0.8mm" H 2350 1950 50  0001 C CNN
+F 3 "" H 2350 1950 50  0001 C CNN
+F 4 "ECP5UM5G_85" H 2500 1900 60  0001 R CNN "manf#"
+	4    2350 1950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5600 6200
+NoConn ~ 5600 6300
+NoConn ~ 5600 3900
+NoConn ~ 5600 3800
 $EndSCHEMATC
