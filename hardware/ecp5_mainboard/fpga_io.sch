@@ -603,46 +603,46 @@ Text GLabel 2150 2650 0    50   BiDi ~ 0
 DDR3_DQS0+
 Text GLabel 2150 2450 0    50   BiDi ~ 0
 DDR3_DQS0-
-Text GLabel 2150 1950 0    50   BiDi ~ 0
+Text GLabel -1250 1700 0    50   BiDi ~ 0
 DDR3_DQ0
-Text GLabel 2150 2050 0    50   BiDi ~ 0
+Text GLabel -1250 1800 0    50   BiDi ~ 0
 DDR3_DQ1
-Text GLabel 2150 2150 0    50   BiDi ~ 0
+Text GLabel -1250 1900 0    50   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 2150 2250 0    50   BiDi ~ 0
+Text GLabel -1250 2000 0    50   BiDi ~ 0
 DDR3_DQ3
-Text GLabel 2150 2350 0    50   BiDi ~ 0
+Text GLabel -1250 2100 0    50   BiDi ~ 0
 DDR3_DQ4
-Text GLabel 2150 2550 0    50   BiDi ~ 0
+Text GLabel -1250 2600 0    50   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 2150 2750 0    50   BiDi ~ 0
+Text GLabel -1250 2250 0    50   BiDi ~ 0
 DDR3_DQ6
-Text GLabel 2150 2850 0    50   BiDi ~ 0
+Text GLabel -1250 2350 0    50   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 2150 2950 0    50   BiDi ~ 0
+Text GLabel -1250 2450 0    50   BiDi ~ 0
 DDR3_DM0
 Wire Wire Line
-	2150 1950 2350 1950
+	-1250 1700 -1050 1700
 Wire Wire Line
-	2150 2050 2350 2050
+	-1250 1800 -1050 1800
 Wire Wire Line
-	2150 2150 2350 2150
+	-1250 1900 -1050 1900
 Wire Wire Line
-	2150 2250 2350 2250
+	-1250 2000 -1050 2000
 Wire Wire Line
-	2150 2350 2350 2350
+	-1250 2100 -1050 2100
 Wire Wire Line
 	2150 2450 2350 2450
 Wire Wire Line
-	2150 2550 2350 2550
+	-1250 2600 -1050 2600
 Wire Wire Line
 	2150 2650 2350 2650
 Wire Wire Line
-	2150 2750 2350 2750
+	-1250 2250 -1050 2250
 Wire Wire Line
-	2150 2850 2350 2850
+	-1250 2350 -1050 2350
 Wire Wire Line
-	2150 2950 2350 2950
+	-1250 2450 -1050 2450
 Text GLabel 5400 1900 0    50   Input ~ 0
 DIP_SW0
 Text GLabel 5400 2000 0    50   Input ~ 0
