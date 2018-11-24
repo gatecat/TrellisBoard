@@ -288,7 +288,7 @@ Wire Wire Line
 	8500 2200 8050 2200
 Connection ~ 8050 2200
 Wire Wire Line
-	8500 3050 8500 3350
+	8500 3050 8500 3200
 Wire Wire Line
 	8500 3350 8050 3350
 $Comp
@@ -2823,4 +2823,145 @@ F 3 "" H 8650 6900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 5650 2100 5750
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5C127F56
+P 13900 1650
+F 0 "TP9" H 13958 1770 50  0000 L CNN
+F 1 "3.3V" H 13958 1679 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 14100 1650 50  0001 C CNN
+F 3 "~" H 14100 1650 50  0001 C CNN
+	1    13900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 1650 13900 1750
+Connection ~ 13900 1750
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5C15E0E3
+P 13900 3100
+F 0 "TP10" H 13958 3220 50  0000 L CNN
+F 1 "2.5V" H 13958 3129 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 14100 3100 50  0001 C CNN
+F 3 "~" H 14100 3100 50  0001 C CNN
+	1    13900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 3100 13900 3250
+Connection ~ 13900 3250
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5C1949EC
+P 13950 4650
+F 0 "TP12" H 14008 4770 50  0000 L CNN
+F 1 "1.8V" H 14008 4679 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 14150 4650 50  0001 C CNN
+F 3 "~" H 14150 4650 50  0001 C CNN
+	1    13950 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 4650 13950 4800
+Connection ~ 13950 4800
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5C1CB463
+P 13900 6100
+F 0 "TP11" H 13958 6220 50  0000 L CNN
+F 1 "1.35V" H 13958 6129 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 14100 6100 50  0001 C CNN
+F 3 "~" H 14100 6100 50  0001 C CNN
+	1    13900 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 6100 13900 6250
+Connection ~ 13900 6250
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5C2061D6
+P 5550 9450
+F 0 "TP3" H 5608 9570 50  0000 L CNN
+F 1 "1.2VA" H 5608 9479 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 5750 9450 50  0001 C CNN
+F 3 "~" H 5750 9450 50  0001 C CNN
+	1    5550 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 9450 5550 9650
+Connection ~ 5550 9650
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5C23D719
+P 10300 9500
+F 0 "TP8" H 10358 9620 50  0000 L CNN
+F 1 "1.2VT" H 10358 9529 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 10500 9500 50  0001 C CNN
+F 3 "~" H 10500 9500 50  0001 C CNN
+	1    10300 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 9500 10300 9700
+Connection ~ 10300 9700
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5C274F6C
+P 8650 6050
+F 0 "TP4" H 8708 6170 50  0000 L CNN
+F 1 "1.2V" H 8708 6079 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 8850 6050 50  0001 C CNN
+F 3 "~" H 8850 6050 50  0001 C CNN
+	1    8650 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 6050 8650 6200
+Connection ~ 8650 6200
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5C2ACBFC
+P 8800 2200
+F 0 "TP5" V 8754 2388 50  0000 L CNN
+F 1 "5V" V 8845 2388 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 9000 2200 50  0001 C CNN
+F 3 "~" H 9000 2200 50  0001 C CNN
+	1    8800 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 2200 8500 2200
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5C2E8C62
+P 8850 3200
+F 0 "TP6" V 8804 3387 50  0000 L CNN
+F 1 "GND" V 8895 3387 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 9050 3200 50  0001 C CNN
+F 3 "~" H 9050 3200 50  0001 C CNN
+	1    8850 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5C2E908C
+P 8850 3350
+F 0 "TP7" V 8804 3537 50  0000 L CNN
+F 1 "GND" V 8895 3537 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 9050 3350 50  0001 C CNN
+F 3 "~" H 9050 3350 50  0001 C CNN
+	1    8850 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 3350 8850 3350
+Connection ~ 8500 3350
+Wire Wire Line
+	8850 3200 8500 3200
+Connection ~ 8500 3200
+Wire Wire Line
+	8500 3200 8500 3350
 $EndSCHEMATC
