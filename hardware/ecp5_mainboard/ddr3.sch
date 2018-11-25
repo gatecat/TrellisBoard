@@ -483,86 +483,86 @@ F 3 "~" H 4000 10800 50  0001 C CNN
 	1    4000 10800
 	0    1    1    0   
 $EndComp
-Text GLabel 3600 7800 0    50   UnSpc ~ 0
+Text GLabel 3600 10200 0    50   UnSpc ~ 0
 DDR3_A0
-Text GLabel 3600 7900 0    50   UnSpc ~ 0
+Text GLabel 3600 9300 0    50   UnSpc ~ 0
 DDR3_A1
-Text GLabel 3600 8000 0    50   UnSpc ~ 0
-DDR3_A2
 Text GLabel 3600 8100 0    50   UnSpc ~ 0
+DDR3_A2
+Text GLabel 3600 10700 0    50   UnSpc ~ 0
 DDR3_A3
 Text GLabel 3600 9200 0    50   UnSpc ~ 0
 DDR3_A4
-Text GLabel 3600 9500 0    50   UnSpc ~ 0
+Text GLabel 3600 10600 0    50   UnSpc ~ 0
 DDR3_A5
 Text GLabel 3600 8500 0    50   UnSpc ~ 0
 DDR3_A6
-Text GLabel 3600 10100 0    50   UnSpc ~ 0
+Text GLabel 3600 8000 0    50   UnSpc ~ 0
 DDR3_A7
 Text GLabel 3600 8600 0    50   UnSpc ~ 0
 DDR3_A8
-Text GLabel 3600 9300 0    50   UnSpc ~ 0
+Text GLabel 3600 7900 0    50   UnSpc ~ 0
 DDR3_A9
-Text GLabel 3600 9400 0    50   UnSpc ~ 0
+Text GLabel 3600 9900 0    50   UnSpc ~ 0
 DDR3_A10
 Text GLabel 3600 8800 0    50   UnSpc ~ 0
 DDR3_A11
-Text GLabel 3600 9900 0    50   UnSpc ~ 0
+Text GLabel 3600 9400 0    50   UnSpc ~ 0
 DDR3_A12
-Text GLabel 3600 10000 0    50   UnSpc ~ 0
+Text GLabel 3600 7800 0    50   UnSpc ~ 0
 DDR3_A13
 Text GLabel 3600 8700 0    50   UnSpc ~ 0
 DDR3_A14
 Wire Wire Line
-	3600 7800 3800 7800
+	3600 10200 3800 10200
 Wire Wire Line
-	3800 7900 3600 7900
-Wire Wire Line
-	3800 8000 3600 8000
+	3800 9300 3600 9300
 Wire Wire Line
 	3800 8100 3600 8100
 Wire Wire Line
+	3800 10700 3600 10700
+Wire Wire Line
 	3600 9200 3800 9200
 Wire Wire Line
-	3600 9500 3800 9500
+	3600 10600 3800 10600
 Wire Wire Line
 	3600 8500 3800 8500
 Wire Wire Line
-	3600 10100 3800 10100
+	3600 8000 3800 8000
 Wire Wire Line
 	3600 8600 3800 8600
 Wire Wire Line
-	3600 9300 3800 9300
-Wire Wire Line
-	3600 9400 3800 9400
-Wire Wire Line
-	3600 8800 3800 8800
+	3600 7900 3800 7900
 Wire Wire Line
 	3600 9900 3800 9900
 Wire Wire Line
-	3600 10000 3800 10000
+	3600 8800 3800 8800
+Wire Wire Line
+	3600 9400 3800 9400
+Wire Wire Line
+	3600 7800 3800 7800
 Wire Wire Line
 	3600 8700 3800 8700
-Text GLabel 3600 10200 0    50   UnSpc ~ 0
+Text GLabel 3600 10800 0    50   UnSpc ~ 0
 DDR3_BA0
-Text GLabel 3600 10600 0    50   UnSpc ~ 0
+Text GLabel 3600 9500 0    50   UnSpc ~ 0
 DDR3_BA1
-Text GLabel 3600 10700 0    50   UnSpc ~ 0
+Text GLabel 3600 10100 0    50   UnSpc ~ 0
 DDR3_BA2
 Wire Wire Line
-	3600 10200 3800 10200
+	3600 10800 3800 10800
 Wire Wire Line
-	3800 10600 3600 10600
+	3800 9500 3600 9500
 Wire Wire Line
-	3600 10700 3800 10700
-Text GLabel 3600 10800 0    50   UnSpc ~ 0
+	3600 10100 3800 10100
+Text GLabel 5000 7800 0    50   UnSpc ~ 0
 DDR3_RAS
-Text GLabel 3600 10900 0    50   UnSpc ~ 0
+Text GLabel 5000 8100 0    50   UnSpc ~ 0
 DDR3_CAS
 Wire Wire Line
-	3600 10900 3800 10900
+	5000 8100 5200 8100
 Wire Wire Line
-	3800 10800 3600 10800
+	5200 7800 5000 7800
 $Comp
 L Device:R_Pack04 RN21
 U 1 1 616933E0
@@ -574,20 +574,20 @@ F 3 "~" H 5400 8000 50  0001 C CNN
 	1    5400 8000
 	0    1    1    0   
 $EndComp
-Text GLabel 5000 7800 0    50   UnSpc ~ 0
+Text GLabel 3600 10000 0    50   UnSpc ~ 0
 DDR3_WE
-Text GLabel 5000 7900 0    50   UnSpc ~ 0
+Text GLabel 3600 10900 0    50   UnSpc ~ 0
 DDR3_CS
 Wire Wire Line
-	5200 7800 5000 7800
+	3800 10000 3600 10000
 Wire Wire Line
-	5000 7900 5200 7900
+	3600 10900 3800 10900
 Text GLabel 5000 8000 0    50   UnSpc ~ 0
 DDR3_CKE
-Text GLabel 5000 8100 0    50   UnSpc ~ 0
+Text GLabel 5000 7900 0    50   UnSpc ~ 0
 DDR3_ODT
 Wire Wire Line
-	5000 8100 5200 8100
+	5000 7900 5200 7900
 Wire Wire Line
 	5200 8000 5000 8000
 Wire Wire Line
