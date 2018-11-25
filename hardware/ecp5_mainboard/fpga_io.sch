@@ -470,111 +470,111 @@ Wire Wire Line
 	5600 4400 5400 4400
 Wire Wire Line
 	5400 4300 5600 4300
-Text GLabel 2150 5050 0    50   Output ~ 0
-DDR3_A0
-Text GLabel 2150 5150 0    50   Output ~ 0
-DDR3_A1
 Text GLabel 2150 5250 0    50   Output ~ 0
-DDR3_A2
-Text GLabel 2150 5350 0    50   Output ~ 0
-DDR3_A3
-Text GLabel 2150 5450 0    50   Output ~ 0
-DDR3_A4
-Text GLabel 2150 5550 0    50   Output ~ 0
-DDR3_A5
-Text GLabel 2150 5650 0    50   Output ~ 0
-DDR3_A6
-Text GLabel 2150 5750 0    50   Output ~ 0
-DDR3_A7
-Text GLabel 2150 5850 0    50   Output ~ 0
-DDR3_A8
+DDR3_A0
 Text GLabel 2150 5950 0    50   Output ~ 0
-DDR3_A9
+DDR3_A1
+Text GLabel 2150 5350 0    50   Output ~ 0
+DDR3_A2
 Text GLabel 2150 6050 0    50   Output ~ 0
-DDR3_A10
-Text GLabel 2150 6150 0    50   Output ~ 0
-DDR3_A11
-Text GLabel 2150 6250 0    50   Output ~ 0
-DDR3_A12
-Text GLabel 2150 4850 0    50   Output ~ 0
-DDR3_A13
+DDR3_A3
 Text GLabel 2150 4950 0    50   Output ~ 0
+DDR3_A4
+Text GLabel 2150 5750 0    50   Output ~ 0
+DDR3_A5
+Text GLabel 2150 4850 0    50   Output ~ 0
+DDR3_A6
+Text GLabel 2150 6250 0    50   Output ~ 0
+DDR3_A7
+Text GLabel 2150 5150 0    50   Output ~ 0
+DDR3_A8
+Text GLabel 2150 5650 0    50   Output ~ 0
+DDR3_A9
+Text GLabel 2150 4750 0    50   Output ~ 0
+DDR3_A10
+Text GLabel 2150 5050 0    50   Output ~ 0
+DDR3_A11
+Text GLabel 2150 6150 0    50   Output ~ 0
+DDR3_A12
+Text GLabel 2150 5850 0    50   Output ~ 0
+DDR3_A13
+Text GLabel 2150 5550 0    50   Output ~ 0
 DDR3_A14
-Wire Wire Line
-	2150 5050 2350 5050
-Wire Wire Line
-	2150 5150 2350 5150
 Wire Wire Line
 	2150 5250 2350 5250
 Wire Wire Line
-	2150 5350 2350 5350
-Wire Wire Line
-	2150 5450 2350 5450
-Wire Wire Line
-	2150 5550 2350 5550
-Wire Wire Line
-	2150 5650 2350 5650
-Wire Wire Line
-	2150 5750 2350 5750
-Wire Wire Line
-	2150 5850 2350 5850
-Wire Wire Line
 	2150 5950 2350 5950
+Wire Wire Line
+	2150 5350 2350 5350
 Wire Wire Line
 	2150 6050 2350 6050
 Wire Wire Line
-	2150 6150 2350 6150
+	2150 4950 2350 4950
 Wire Wire Line
-	2150 6250 2350 6250
+	2150 5750 2350 5750
 Wire Wire Line
 	2150 4850 2350 4850
 Wire Wire Line
-	2150 4950 2350 4950
+	2150 6250 2350 6250
+Wire Wire Line
+	2150 5150 2350 5150
+Wire Wire Line
+	2150 5650 2350 5650
+Wire Wire Line
+	2150 4750 2350 4750
+Wire Wire Line
+	2150 5050 2350 5050
+Wire Wire Line
+	2150 6150 2350 6150
+Wire Wire Line
+	2150 5850 2350 5850
+Wire Wire Line
+	2150 5550 2350 5550
 NoConn ~ 5600 6600
-Text GLabel 2150 4750 0    50   Output ~ 0
-DDR3_BA0
 Text GLabel 2150 4650 0    50   Output ~ 0
+DDR3_BA0
+Text GLabel 2150 4450 0    50   Output ~ 0
 DDR3_BA1
 Text GLabel 2150 4550 0    50   Output ~ 0
 DDR3_BA2
-Text GLabel 2150 4450 0    50   Output ~ 0
-DDR3_RAS
 Text GLabel 2150 4350 0    50   Output ~ 0
+DDR3_RAS
+Text GLabel 2150 4250 0    50   Output ~ 0
 DDR3_CAS
 Text GLabel 2150 4150 0    50   Output ~ 0
 DDR3_CKE
 Text GLabel 2150 4050 0    50   Output ~ 0
 DDR3_WE
-Text GLabel 2150 3950 0    50   Output ~ 0
-DDR3_ODT
 Text GLabel 2150 3750 0    50   Output ~ 0
+DDR3_ODT
+Text GLabel 2150 3950 0    50   Output ~ 0
 DDR3_RESET
-Text GLabel 2150 4250 0    50   Output ~ 0
+Text GLabel 2150 3550 0    50   Output ~ 0
 DDR3_CS
 Text GLabel 5400 5000 0    50   BiDi ~ 0
 DDR3_DM3
 Wire Wire Line
 	5400 5000 5600 5000
 Wire Wire Line
-	2150 3750 2350 3750
-Wire Wire Line
 	2150 3950 2350 3950
+Wire Wire Line
+	2150 3750 2350 3750
 Wire Wire Line
 	2150 4050 2350 4050
 Wire Wire Line
 	2150 4150 2350 4150
 Wire Wire Line
+	2150 3550 2350 3550
+Wire Wire Line
 	2150 4250 2350 4250
 Wire Wire Line
 	2150 4350 2350 4350
 Wire Wire Line
-	2150 4450 2350 4450
-Wire Wire Line
 	2150 4550 2350 4550
 Wire Wire Line
-	2150 4650 2350 4650
+	2150 4450 2350 4450
 Wire Wire Line
-	2150 4750 2350 4750
+	2150 4650 2350 4650
 Text GLabel 2150 3850 0    50   Output ~ 0
 DDR3_CLK+
 Text GLabel 2150 3650 0    50   Output ~ 0
