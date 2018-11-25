@@ -491,27 +491,27 @@ Text GLabel 3600 8000 0    50   UnSpc ~ 0
 DDR3_A2
 Text GLabel 3600 8100 0    50   UnSpc ~ 0
 DDR3_A3
-Text GLabel 3600 8500 0    50   UnSpc ~ 0
-DDR3_A4
-Text GLabel 3600 8600 0    50   UnSpc ~ 0
-DDR3_A5
-Text GLabel 3600 8700 0    50   UnSpc ~ 0
-DDR3_A6
-Text GLabel 3600 8800 0    50   UnSpc ~ 0
-DDR3_A7
 Text GLabel 3600 9200 0    50   UnSpc ~ 0
+DDR3_A4
+Text GLabel 3600 9500 0    50   UnSpc ~ 0
+DDR3_A5
+Text GLabel 3600 8500 0    50   UnSpc ~ 0
+DDR3_A6
+Text GLabel 3600 10100 0    50   UnSpc ~ 0
+DDR3_A7
+Text GLabel 3600 8600 0    50   UnSpc ~ 0
 DDR3_A8
 Text GLabel 3600 9300 0    50   UnSpc ~ 0
 DDR3_A9
 Text GLabel 3600 9400 0    50   UnSpc ~ 0
 DDR3_A10
-Text GLabel 3600 9500 0    50   UnSpc ~ 0
+Text GLabel 3600 8800 0    50   UnSpc ~ 0
 DDR3_A11
 Text GLabel 3600 9900 0    50   UnSpc ~ 0
 DDR3_A12
 Text GLabel 3600 10000 0    50   UnSpc ~ 0
 DDR3_A13
-Text GLabel 3600 10100 0    50   UnSpc ~ 0
+Text GLabel 3600 8700 0    50   UnSpc ~ 0
 DDR3_A14
 Wire Wire Line
 	3600 7800 3800 7800
@@ -522,27 +522,27 @@ Wire Wire Line
 Wire Wire Line
 	3800 8100 3600 8100
 Wire Wire Line
+	3600 9200 3800 9200
+Wire Wire Line
+	3600 9500 3800 9500
+Wire Wire Line
 	3600 8500 3800 8500
 Wire Wire Line
+	3600 10100 3800 10100
+Wire Wire Line
 	3600 8600 3800 8600
-Wire Wire Line
-	3600 8700 3800 8700
-Wire Wire Line
-	3600 8800 3800 8800
-Wire Wire Line
-	3600 9200 3800 9200
 Wire Wire Line
 	3600 9300 3800 9300
 Wire Wire Line
 	3600 9400 3800 9400
 Wire Wire Line
-	3600 9500 3800 9500
+	3600 8800 3800 8800
 Wire Wire Line
 	3600 9900 3800 9900
 Wire Wire Line
 	3600 10000 3800 10000
 Wire Wire Line
-	3600 10100 3800 10100
+	3600 8700 3800 8700
 Text GLabel 3600 10200 0    50   UnSpc ~ 0
 DDR3_BA0
 Text GLabel 3600 10600 0    50   UnSpc ~ 0
