@@ -148,38 +148,38 @@ Text GLabel 2150 2650 0    50   BiDi ~ 0
 DDR3_DQS1+
 Text GLabel 2150 2450 0    50   BiDi ~ 0
 DDR3_DQS1-
-Text GLabel 2150 1950 0    50   BiDi ~ 0
-DDR3_DQ8
-Text GLabel 2150 2050 0    50   BiDi ~ 0
-DDR3_DQ9
 Text GLabel 2150 2150 0    50   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 2150 2950 0    50   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 2150 1950 0    50   BiDi ~ 0
 DDR3_DQ10
-Text GLabel 2150 2250 0    50   BiDi ~ 0
-DDR3_DQ11
-Text GLabel 2150 2350 0    50   BiDi ~ 0
-DDR3_DQ12
 Text GLabel 2150 2550 0    50   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 2150 3050 0    50   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 2150 2050 0    50   BiDi ~ 0
 DDR3_DQ13
 Text GLabel 2150 2750 0    50   BiDi ~ 0
 DDR3_DQ14
 Text GLabel 2150 2850 0    50   BiDi ~ 0
 DDR3_DQ15
-Text GLabel 2150 2950 0    50   BiDi ~ 0
+Text GLabel 2150 2350 0    50   BiDi ~ 0
 DDR3_DM1
-Wire Wire Line
-	2150 1950 2350 1950
-Wire Wire Line
-	2150 2050 2350 2050
 Wire Wire Line
 	2150 2150 2350 2150
 Wire Wire Line
-	2150 2250 2350 2250
+	2150 2950 2350 2950
 Wire Wire Line
-	2150 2350 2350 2350
+	2150 1950 2350 1950
+Wire Wire Line
+	2150 2550 2350 2550
+Wire Wire Line
+	2150 3050 2350 3050
 Wire Wire Line
 	2150 2450 2350 2450
 Wire Wire Line
-	2150 2550 2350 2550
+	2150 2050 2350 2050
 Wire Wire Line
 	2150 2650 2350 2650
 Wire Wire Line
@@ -187,7 +187,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 2850 2350 2850
 Wire Wire Line
-	2150 2950 2350 2950
+	2150 2350 2350 2350
 Wire Wire Line
 	15400 1800 14800 1800
 Wire Wire Line
@@ -196,50 +196,50 @@ Text Label 14800 1800 0    50   ~ 0
 CLK100-
 Text Label 14800 2000 0    50   ~ 0
 CLK100+
-Text GLabel 5400 5800 0    50   BiDi ~ 0
+Text GLabel 5400 4200 0    50   BiDi ~ 0
 DDR3_DQS2+
-Text GLabel 5400 5600 0    50   BiDi ~ 0
+Text GLabel 5400 4000 0    50   BiDi ~ 0
 DDR3_DQS2-
-Text GLabel 5400 5100 0    50   BiDi ~ 0
+Text GLabel 5400 4300 0    50   BiDi ~ 0
 DDR3_DQ16
-Text GLabel 5400 5200 0    50   BiDi ~ 0
+Text GLabel 5400 4400 0    50   BiDi ~ 0
 DDR3_DQ17
-Text GLabel 5400 5300 0    50   BiDi ~ 0
+Text GLabel 5400 4500 0    50   BiDi ~ 0
 DDR3_DQ18
-Text GLabel 5400 5400 0    50   BiDi ~ 0
+Text GLabel 5400 4600 0    50   BiDi ~ 0
 DDR3_DQ19
-Text GLabel 5400 5500 0    50   BiDi ~ 0
+Text GLabel 5400 4700 0    50   BiDi ~ 0
 DDR3_DQ20
-Text GLabel 5400 5700 0    50   BiDi ~ 0
+Text GLabel 5400 4100 0    50   BiDi ~ 0
 DDR3_DQ21
-Text GLabel 5400 5900 0    50   BiDi ~ 0
+Text GLabel 5400 4800 0    50   BiDi ~ 0
 DDR3_DQ22
-Text GLabel 5400 6000 0    50   BiDi ~ 0
+Text GLabel 5400 4900 0    50   BiDi ~ 0
 DDR3_DQ23
 Wire Wire Line
-	5400 5100 5600 5100
+	5400 4300 5600 4300
 Wire Wire Line
-	5400 5200 5600 5200
+	5400 4400 5600 4400
 Wire Wire Line
-	5400 5300 5600 5300
+	5400 4500 5600 4500
 Wire Wire Line
-	5400 5400 5600 5400
+	5400 4600 5600 4600
 Wire Wire Line
-	5400 5500 5600 5500
+	5400 4700 5600 4700
 Wire Wire Line
-	5400 5600 5600 5600
+	5400 4000 5600 4000
 Wire Wire Line
-	5400 5700 5600 5700
+	5400 4100 5600 4100
 Wire Wire Line
-	5400 5800 5600 5800
+	5400 4200 5600 4200
 Wire Wire Line
-	5400 5900 5600 5900
+	5400 4800 5600 4800
 Wire Wire Line
-	5400 6000 5600 6000
-Text GLabel 5400 6100 0    50   BiDi ~ 0
+	5400 4900 5600 4900
+Text GLabel 5400 5000 0    50   BiDi ~ 0
 DDR3_DM2
 Wire Wire Line
-	5400 6100 5600 6100
+	5400 5000 5600 5000
 $Comp
 L Device:C_Small C218
 U 1 1 61FE1443
@@ -430,46 +430,46 @@ Text GLabel 5400 6800 0    50   Input ~ 0
 DDR3_Vref
 Wire Wire Line
 	5400 6800 5600 6800
-Text GLabel 5400 4200 0    50   BiDi ~ 0
+Text GLabel 5400 5800 0    50   BiDi ~ 0
 DDR3_DQS3+
 Wire Wire Line
-	5400 4200 5600 4200
-Text GLabel 5400 4000 0    50   BiDi ~ 0
+	5400 5800 5600 5800
+Text GLabel 5400 5600 0    50   BiDi ~ 0
 DDR3_DQS3-
 Wire Wire Line
-	5400 4000 5600 4000
+	5400 5600 5600 5600
 Wire Wire Line
-	5600 4100 5400 4100
-Text GLabel 5400 4100 0    50   BiDi ~ 0
+	5600 5700 5400 5700
+Text GLabel 5400 5700 0    50   BiDi ~ 0
 DDR3_DQ24
-Text GLabel 5400 4300 0    50   BiDi ~ 0
+Text GLabel 5400 5100 0    50   BiDi ~ 0
 DDR3_DQ25
-Text GLabel 5400 4400 0    50   BiDi ~ 0
+Text GLabel 5400 5200 0    50   BiDi ~ 0
 DDR3_DQ26
-Text GLabel 5400 4500 0    50   BiDi ~ 0
+Text GLabel 5400 5300 0    50   BiDi ~ 0
 DDR3_DQ27
-Text GLabel 5400 4600 0    50   BiDi ~ 0
+Text GLabel 5400 5400 0    50   BiDi ~ 0
 DDR3_DQ28
-Text GLabel 5400 4700 0    50   BiDi ~ 0
+Text GLabel 5400 5500 0    50   BiDi ~ 0
 DDR3_DQ29
-Text GLabel 5400 4800 0    50   BiDi ~ 0
+Text GLabel 5400 5900 0    50   BiDi ~ 0
 DDR3_DQ30
-Text GLabel 5400 4900 0    50   BiDi ~ 0
+Text GLabel 5400 6000 0    50   BiDi ~ 0
 DDR3_DQ31
 Wire Wire Line
-	5400 4900 5600 4900
+	5400 6000 5600 6000
 Wire Wire Line
-	5600 4800 5400 4800
+	5600 5900 5400 5900
 Wire Wire Line
-	5400 4700 5600 4700
+	5400 5500 5600 5500
 Wire Wire Line
-	5600 4600 5400 4600
+	5600 5400 5400 5400
 Wire Wire Line
-	5400 4500 5600 4500
+	5400 5300 5600 5300
 Wire Wire Line
-	5600 4400 5400 4400
+	5600 5200 5400 5200
 Wire Wire Line
-	5400 4300 5600 4300
+	5400 5100 5600 5100
 Text GLabel 2150 5250 0    50   Output ~ 0
 DDR3_A0
 Text GLabel 2150 5950 0    50   Output ~ 0
@@ -551,10 +551,10 @@ Text GLabel 2150 3950 0    50   Output ~ 0
 DDR3_RESET
 Text GLabel 2150 3550 0    50   Output ~ 0
 DDR3_CS
-Text GLabel 5400 5000 0    50   BiDi ~ 0
+Text GLabel 5400 6100 0    50   BiDi ~ 0
 DDR3_DM3
 Wire Wire Line
-	5400 5000 5600 5000
+	5400 6100 5600 6100
 Wire Wire Line
 	2150 3950 2350 3950
 Wire Wire Line
@@ -593,17 +593,17 @@ Text GLabel 5400 7800 0    50   BiDi ~ 0
 DDR3_DQ1
 Text GLabel 5400 6900 0    50   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 5400 7000 0    50   BiDi ~ 0
+Text GLabel 5400 7900 0    50   BiDi ~ 0
 DDR3_DQ3
 Text GLabel 5400 7100 0    50   BiDi ~ 0
 DDR3_DQ4
-Text GLabel 5400 7300 0    50   BiDi ~ 0
-DDR3_DQ5
-Text GLabel 5400 7500 0    50   BiDi ~ 0
-DDR3_DQ6
 Text GLabel 5400 7600 0    50   BiDi ~ 0
+DDR3_DQ5
+Text GLabel 5400 7300 0    50   BiDi ~ 0
+DDR3_DQ6
+Text GLabel 5400 7500 0    50   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 5400 7700 0    50   BiDi ~ 0
+Text GLabel 5400 8100 0    50   BiDi ~ 0
 DDR3_DM0
 Wire Wire Line
 	5400 6700 5600 6700
@@ -612,21 +612,21 @@ Wire Wire Line
 Wire Wire Line
 	5400 6900 5600 6900
 Wire Wire Line
-	5400 7000 5600 7000
+	5400 7900 5600 7900
 Wire Wire Line
 	5400 7100 5600 7100
 Wire Wire Line
 	5400 7200 5600 7200
 Wire Wire Line
-	5400 7300 5600 7300
+	5400 7600 5600 7600
 Wire Wire Line
 	5400 7400 5600 7400
 Wire Wire Line
+	5400 7300 5600 7300
+Wire Wire Line
 	5400 7500 5600 7500
 Wire Wire Line
-	5400 7600 5600 7600
-Wire Wire Line
-	5400 7700 5600 7700
+	5400 8100 5600 8100
 Text GLabel 5400 1900 0    50   Input ~ 0
 DIP_SW0
 Text GLabel 5400 2000 0    50   Input ~ 0
@@ -4500,9 +4500,7 @@ NoConn ~ 5600 3500
 NoConn ~ 5600 3700
 NoConn ~ 5600 6400
 NoConn ~ 5600 6500
-NoConn ~ 5600 7900
 NoConn ~ 5600 8000
-NoConn ~ 5600 8100
 NoConn ~ 5600 8200
 NoConn ~ 20650 5400
 NoConn ~ 20650 5800
@@ -4584,7 +4582,6 @@ Wire Wire Line
 	20500 5700 20650 5700
 Wire Wire Line
 	20300 5700 20150 5700
-NoConn ~ 2350 3050
 Wire Bus Line
 	2550 5100 3450 5100
 Wire Bus Line
@@ -4648,4 +4645,9 @@ NoConn ~ 5600 6200
 NoConn ~ 5600 6300
 NoConn ~ 5600 3900
 NoConn ~ 5600 3800
+NoConn ~ 2350 3150
+NoConn ~ 2350 3250
+NoConn ~ 2350 2250
+NoConn ~ 5600 7700
+NoConn ~ 5600 7000
 $EndSCHEMATC
