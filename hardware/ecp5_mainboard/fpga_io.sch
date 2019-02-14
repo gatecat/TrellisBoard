@@ -2180,395 +2180,104 @@ EXT2_11-
 Wire Wire Line
 	4300 15400 3700 15400
 Wire Wire Line
-	11950 13700 12550 13700
-Text Label 11950 13700 0    50   ~ 0
-EXT2_0+
-Text Label 11950 13900 0    50   ~ 0
-EXT2_0-
-Wire Wire Line
-	11950 13900 12550 13900
-Wire Wire Line
-	11950 13800 12550 13800
-Text Label 11950 13800 0    50   ~ 0
-EXT2_1+
-Text Label 11950 14000 0    50   ~ 0
-EXT2_1-
-Wire Wire Line
-	11950 14000 12550 14000
-Wire Wire Line
-	11950 13300 12550 13300
-Text Label 11950 13300 0    50   ~ 0
-EXT2_2+
-Text Label 11950 13500 0    50   ~ 0
-EXT2_2-
-Wire Wire Line
-	11950 13500 12550 13500
-Wire Wire Line
-	11950 13400 12550 13400
-Text Label 11950 13400 0    50   ~ 0
-EXT2_3+
-Text Label 11950 13600 0    50   ~ 0
-EXT2_3-
-Wire Wire Line
-	11950 13600 12550 13600
-Wire Wire Line
 	11950 12900 12550 12900
 Text Label 11950 12900 0    50   ~ 0
-EXT2_4+
+EXT2_0+
 Text Label 11950 13100 0    50   ~ 0
-EXT2_4-
+EXT2_0-
 Wire Wire Line
 	11950 13100 12550 13100
 Wire Wire Line
-	11950 13000 12550 13000
-Text Label 11950 13000 0    50   ~ 0
-EXT2_5+
-Text Label 11950 13200 0    50   ~ 0
-EXT2_5-
-Wire Wire Line
-	11950 13200 12550 13200
-Wire Wire Line
-	11950 12500 12550 12500
-Text Label 11950 12500 0    50   ~ 0
-EXT2_6+
-Text Label 11950 12700 0    50   ~ 0
-EXT2_6-
-Wire Wire Line
-	11950 12700 12550 12700
-Wire Wire Line
 	11950 12600 12550 12600
 Text Label 11950 12600 0    50   ~ 0
-EXT2_7+
+EXT2_1+
 Text Label 11950 12800 0    50   ~ 0
-EXT2_7-
+EXT2_1-
 Wire Wire Line
 	11950 12800 12550 12800
 Wire Wire Line
-	11950 12100 12550 12100
-Text Label 11950 12100 0    50   ~ 0
-EXT2_8+
-Text Label 11950 12300 0    50   ~ 0
-EXT2_8-
-Wire Wire Line
-	11950 12300 12550 12300
-Wire Wire Line
-	11950 12200 12550 12200
-Text Label 11950 12200 0    50   ~ 0
-EXT2_9+
-Text Label 11950 12400 0    50   ~ 0
-EXT2_9-
-Wire Wire Line
-	11950 12400 12550 12400
-Wire Wire Line
-	11950 11700 12550 11700
-Text Label 11950 11700 0    50   ~ 0
-EXT2_10+
-Text Label 11950 11900 0    50   ~ 0
-EXT2_10-
-Wire Wire Line
-	11950 11900 12550 11900
-Wire Wire Line
-	11950 11800 12550 11800
-Text Label 11950 11800 0    50   ~ 0
-EXT2_11+
-Text Label 11950 12000 0    50   ~ 0
-EXT2_11-
-Wire Wire Line
-	11950 12000 12550 12000
-NoConn ~ 1400 15500
-NoConn ~ 2600 15500
-NoConn ~ 3700 15500
-$Comp
-L Connector_Generic:Conn_01x40 J8
-U 1 1 65FA91E0
-P 4550 13700
-F 0 "J8" H 4470 15817 50  0000 C CNN
-F 1 "EXT3" H 4470 15726 50  0000 C CNN
-F 2 "Custom Parts:TE_FPC_40pin_p0.5mm_4-1734839-0" H 4550 13700 50  0001 C CNN
-F 3 "~" H 4550 13700 50  0001 C CNN
-	1    4550 13700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 11800 4850 11800
-Text Label 5350 11800 2    50   ~ 0
-VCCIO7
-Wire Wire Line
-	4750 15700 4850 15700
-Text Label 5350 15700 2    50   ~ 0
-VCCIO7
-$Comp
-L power:GND #PWR0207
-U 1 1 65FA91EA
-P 4950 15750
-F 0 "#PWR0207" H 4950 15500 50  0001 C CNN
-F 1 "GND" H 4955 15577 50  0000 C CNN
-F 2 "" H 4950 15750 50  0001 C CNN
-F 3 "" H 4950 15750 50  0001 C CNN
-	1    4950 15750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 12000 4750 12000
-Text Label 5350 12000 2    50   ~ 0
-EXT3_0+
-Text Label 5350 12100 2    50   ~ 0
-EXT3_0-
-Wire Wire Line
-	5350 12100 4750 12100
-Wire Wire Line
-	5350 12300 4750 12300
-Text Label 5350 12300 2    50   ~ 0
-EXT3_1+
-Text Label 5350 12400 2    50   ~ 0
-EXT3_1-
-Wire Wire Line
-	5350 12400 4750 12400
-Wire Wire Line
-	5350 12600 4750 12600
-Text Label 5350 12600 2    50   ~ 0
-EXT3_2+
-Text Label 5350 12700 2    50   ~ 0
-EXT3_2-
-Wire Wire Line
-	5350 12700 4750 12700
-Wire Wire Line
-	5350 12900 4750 12900
-Text Label 5350 12900 2    50   ~ 0
-EXT3_3+
-Text Label 5350 13000 2    50   ~ 0
-EXT3_3-
-Wire Wire Line
-	5350 13000 4750 13000
-Wire Wire Line
-	5350 13200 4750 13200
-Text Label 5350 13200 2    50   ~ 0
-EXT3_4+
-Text Label 5350 13300 2    50   ~ 0
-EXT3_4-
-Wire Wire Line
-	5350 13300 4750 13300
-Wire Wire Line
-	5350 13500 4750 13500
-Text Label 5350 13500 2    50   ~ 0
-EXT3_5+
-Text Label 5350 13600 2    50   ~ 0
-EXT3_5-
-Wire Wire Line
-	5350 13600 4750 13600
-Wire Wire Line
-	5350 13800 4750 13800
-Text Label 5350 13800 2    50   ~ 0
-EXT3_6+
-Text Label 5350 13900 2    50   ~ 0
-EXT3_6-
-Wire Wire Line
-	5350 13900 4750 13900
-Wire Wire Line
-	5350 14100 4750 14100
-Text Label 5350 14100 2    50   ~ 0
-EXT3_7+
-Text Label 5350 14200 2    50   ~ 0
-EXT3_7-
-Wire Wire Line
-	5350 14200 4750 14200
-Wire Wire Line
-	5350 14400 4750 14400
-Text Label 5350 14400 2    50   ~ 0
-EXT3_8+
-Text Label 5350 14500 2    50   ~ 0
-EXT3_8-
-Wire Wire Line
-	5350 14500 4750 14500
-Wire Wire Line
-	5350 14700 4750 14700
-Text Label 5350 14700 2    50   ~ 0
-EXT3_9+
-Text Label 5350 14800 2    50   ~ 0
-EXT3_9-
-Wire Wire Line
-	5350 14800 4750 14800
-Wire Wire Line
-	4750 15600 4850 15600
-Wire Wire Line
-	4850 15600 4850 15700
-Connection ~ 4850 15700
-Wire Wire Line
-	4850 15700 5350 15700
-Wire Wire Line
-	4750 11900 4850 11900
-Wire Wire Line
-	4850 11900 4850 11800
-Connection ~ 4850 11800
-Wire Wire Line
-	4850 11800 5350 11800
-Wire Wire Line
-	4750 12200 4950 12200
-Wire Wire Line
-	4950 12200 4950 12500
-Wire Wire Line
-	4750 12500 4950 12500
-Connection ~ 4950 12500
-Wire Wire Line
-	4950 12500 4950 12800
-Wire Wire Line
-	4750 12800 4950 12800
-Connection ~ 4950 12800
-Wire Wire Line
-	4950 12800 4950 13100
-Wire Wire Line
-	4750 13100 4950 13100
-Connection ~ 4950 13100
-Wire Wire Line
-	4950 13100 4950 13400
-Wire Wire Line
-	4750 13400 4950 13400
-Connection ~ 4950 13400
-Wire Wire Line
-	4950 13400 4950 13700
-Wire Wire Line
-	4750 13700 4950 13700
-Connection ~ 4950 13700
-Wire Wire Line
-	4950 13700 4950 14000
-Wire Wire Line
-	4750 14000 4950 14000
-Connection ~ 4950 14000
-Wire Wire Line
-	4950 14000 4950 14300
-Wire Wire Line
-	4750 14300 4950 14300
-Connection ~ 4950 14300
-Wire Wire Line
-	4950 14300 4950 14600
-Wire Wire Line
-	4750 14600 4950 14600
-Connection ~ 4950 14600
-Wire Wire Line
-	4950 14600 4950 14900
-Wire Wire Line
-	4750 14900 4950 14900
-Connection ~ 4950 14900
-Wire Wire Line
-	4950 14900 4950 15200
-Wire Wire Line
-	5350 15000 4750 15000
-Text Label 5350 15000 2    50   ~ 0
-EXT3_10+
-Text Label 5350 15100 2    50   ~ 0
-EXT3_10-
-Wire Wire Line
-	5350 15100 4750 15100
-Wire Wire Line
-	4750 15200 4950 15200
-Connection ~ 4950 15200
-Wire Wire Line
-	4950 15200 4950 15750
-Wire Wire Line
-	5350 15300 4750 15300
-Text Label 5350 15300 2    50   ~ 0
-EXT3_11+
-Text Label 5350 15400 2    50   ~ 0
-EXT3_11-
-Wire Wire Line
-	5350 15400 4750 15400
-NoConn ~ 4750 15500
-Wire Wire Line
-	11950 9300 12550 9300
-Text Label 11950 9300 0    50   ~ 0
-EXT3_0+
-Text Label 11950 9400 0    50   ~ 0
-EXT3_0-
-Wire Wire Line
-	11950 9400 12550 9400
-Wire Wire Line
-	11950 9500 12550 9500
-Text Label 11950 9500 0    50   ~ 0
-EXT3_1+
-Text Label 11950 9600 0    50   ~ 0
-EXT3_1-
-Wire Wire Line
-	11950 9600 12550 9600
-Wire Wire Line
-	11950 9700 12550 9700
-Text Label 11950 9700 0    50   ~ 0
-EXT3_2+
-Text Label 11950 9900 0    50   ~ 0
-EXT3_2-
-Wire Wire Line
-	11950 9900 12550 9900
+	11950 12500 12550 12500
+Text Label 11950 12500 0    50   ~ 0
+EXT2_2+
+Text Label 11950 12700 0    50   ~ 0
+EXT2_2-
+Wire Wire Line
+	11950 12700 12550 12700
 Wire Wire Line
 	11950 9800 12550 9800
 Text Label 11950 9800 0    50   ~ 0
-EXT3_3+
+EXT2_3+
 Text Label 11950 10000 0    50   ~ 0
-EXT3_3-
+EXT2_3-
 Wire Wire Line
 	11950 10000 12550 10000
 Wire Wire Line
-	11950 10100 12550 10100
-Text Label 11950 10100 0    50   ~ 0
-EXT3_4+
-Text Label 11950 10300 0    50   ~ 0
-EXT3_4-
-Wire Wire Line
-	11950 10300 12550 10300
-Wire Wire Line
-	11950 10200 12550 10200
-Text Label 11950 10200 0    50   ~ 0
-EXT3_5+
-Text Label 11950 10400 0    50   ~ 0
-EXT3_5-
-Wire Wire Line
-	11950 10400 12550 10400
-Wire Wire Line
 	11950 10500 12550 10500
 Text Label 11950 10500 0    50   ~ 0
-EXT3_6+
+EXT2_4+
 Text Label 11950 10700 0    50   ~ 0
-EXT3_6-
+EXT2_4-
 Wire Wire Line
 	11950 10700 12550 10700
 Wire Wire Line
-	11950 10600 12550 10600
-Text Label 11950 10600 0    50   ~ 0
-EXT3_7+
-Text Label 11950 10800 0    50   ~ 0
-EXT3_7-
+	11950 9500 12550 9500
+Text Label 11950 9500 0    50   ~ 0
+EXT2_5+
+Text Label 11950 9600 0    50   ~ 0
+EXT2_5-
 Wire Wire Line
-	11950 10800 12550 10800
+	11950 9600 12550 9600
 Wire Wire Line
-	11950 10900 12550 10900
-Text Label 11950 10900 0    50   ~ 0
-EXT3_8+
-Text Label 11950 11100 0    50   ~ 0
-EXT3_8-
+	11950 9300 12550 9300
+Text Label 11950 9300 0    50   ~ 0
+EXT2_6+
+Text Label 11950 9400 0    50   ~ 0
+EXT2_6-
 Wire Wire Line
-	11950 11100 12550 11100
+	11950 9400 12550 9400
 Wire Wire Line
-	11950 11000 12550 11000
-Text Label 11950 11000 0    50   ~ 0
-EXT3_9+
-Text Label 11950 11200 0    50   ~ 0
-EXT3_9-
+	11950 10200 12550 10200
+Text Label 11950 10200 0    50   ~ 0
+EXT2_7+
+Text Label 11950 10400 0    50   ~ 0
+EXT2_7-
 Wire Wire Line
-	11950 11200 12550 11200
+	11950 10400 12550 10400
 Wire Wire Line
 	11950 11300 12550 11300
 Text Label 11950 11300 0    50   ~ 0
-EXT3_10+
+EXT2_8+
 Text Label 11950 11500 0    50   ~ 0
-EXT3_10-
+EXT2_8-
 Wire Wire Line
 	11950 11500 12550 11500
 Wire Wire Line
 	11950 11400 12550 11400
 Text Label 11950 11400 0    50   ~ 0
-EXT3_11+
+EXT2_9+
 Text Label 11950 11600 0    50   ~ 0
-EXT3_11-
+EXT2_9-
 Wire Wire Line
 	11950 11600 12550 11600
+Wire Wire Line
+	11950 10100 12550 10100
+Text Label 11950 10100 0    50   ~ 0
+EXT2_10+
+Text Label 11950 10300 0    50   ~ 0
+EXT2_10-
+Wire Wire Line
+	11950 10300 12550 10300
+Wire Wire Line
+	11950 11000 12550 11000
+Text Label 11950 11000 0    50   ~ 0
+EXT2_11+
+Text Label 11950 11200 0    50   ~ 0
+EXT2_11-
+Wire Wire Line
+	11950 11200 12550 11200
+NoConn ~ 1400 15500
+NoConn ~ 2600 15500
+NoConn ~ 3700 15500
 Text Label 8400 8400 0    50   ~ 0
 VCCIO6
 Wire Wire Line
