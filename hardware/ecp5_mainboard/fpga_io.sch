@@ -828,33 +828,33 @@ Wire Wire Line
 	11500 3300 11850 3300
 Wire Wire Line
 	11500 3400 11850 3400
-Text GLabel 11500 3700 0    50   Output ~ 0
-DVI_D0
-Text GLabel 11500 3800 0    50   Output ~ 0
-DVI_D1
-Text GLabel 11500 3900 0    50   Output ~ 0
-DVI_D2
-Text GLabel 11500 4000 0    50   Output ~ 0
-DVI_D3
-Text GLabel 11500 4100 0    50   Output ~ 0
-DVI_D4
-Text GLabel 11500 4200 0    50   Output ~ 0
-DVI_D5
 Text GLabel 11500 4300 0    50   Output ~ 0
-DVI_D6
+DVI_D0
+Text GLabel 11500 4200 0    50   Output ~ 0
+DVI_D1
 Text GLabel 11500 4400 0    50   Output ~ 0
-DVI_D7
-Text GLabel 11500 4500 0    50   Output ~ 0
-DVI_D8
-Text GLabel 11500 4600 0    50   Output ~ 0
-DVI_D9
+DVI_D2
 Text GLabel 11500 4700 0    50   Output ~ 0
-DVI_D10
-Text GLabel 11500 4800 0    50   Output ~ 0
-DVI_D11
+DVI_D3
 Text GLabel 11500 4900 0    50   Output ~ 0
-DVI_D12
+DVI_D4
 Text GLabel 11500 5000 0    50   Output ~ 0
+DVI_D5
+Text GLabel 11500 5800 0    50   Output ~ 0
+DVI_D6
+Text GLabel 11500 6500 0    50   Output ~ 0
+DVI_D7
+Text GLabel 11500 6000 0    50   Output ~ 0
+DVI_D8
+Text GLabel 11500 6300 0    50   Output ~ 0
+DVI_D9
+Text GLabel 11500 5900 0    50   Output ~ 0
+DVI_D10
+Text GLabel 11500 5600 0    50   Output ~ 0
+DVI_D11
+Text GLabel 11500 4800 0    50   Output ~ 0
+DVI_D12
+Text GLabel 11500 4600 0    50   Output ~ 0
 DVI_D13
 Text GLabel 11500 5100 0    50   Output ~ 0
 DVI_D14
@@ -862,48 +862,48 @@ Text GLabel 11500 5200 0    50   Output ~ 0
 DVI_D15
 Text GLabel 11500 5300 0    50   Output ~ 0
 DVI_D16
-Text GLabel 11500 5400 0    50   Output ~ 0
+Text GLabel 11500 5700 0    50   Output ~ 0
 DVI_D17
 Text GLabel 11500 5500 0    50   Output ~ 0
 DVI_D18
-Text GLabel 11500 5600 0    50   Output ~ 0
+Text GLabel 11500 6100 0    50   Output ~ 0
 DVI_D19
-Text GLabel 11500 5700 0    50   Output ~ 0
+Text GLabel 11500 6600 0    50   Output ~ 0
 DVI_D20
-Text GLabel 11500 5800 0    50   Output ~ 0
+Text GLabel 11500 6400 0    50   Output ~ 0
 DVI_D21
-Text GLabel 11500 5900 0    50   Output ~ 0
+Text GLabel 11500 6200 0    50   Output ~ 0
 DVI_D22
-Text GLabel 11500 6000 0    50   Output ~ 0
+Text GLabel 11500 4500 0    50   Output ~ 0
 DVI_D23
-Wire Wire Line
-	11500 3700 11850 3700
-Wire Wire Line
-	11500 3800 11850 3800
-Wire Wire Line
-	11500 3900 11850 3900
-Wire Wire Line
-	11500 4000 11850 4000
-Wire Wire Line
-	11500 4100 11850 4100
-Wire Wire Line
-	11500 4200 11850 4200
 Wire Wire Line
 	11500 4300 11850 4300
 Wire Wire Line
+	11500 4200 11850 4200
+Wire Wire Line
 	11500 4400 11850 4400
 Wire Wire Line
-	11500 4500 11850 4500
-Wire Wire Line
-	11500 4600 11850 4600
-Wire Wire Line
 	11500 4700 11850 4700
-Wire Wire Line
-	11500 4800 11850 4800
 Wire Wire Line
 	11500 4900 11850 4900
 Wire Wire Line
 	11500 5000 11850 5000
+Wire Wire Line
+	11500 5800 11850 5800
+Wire Wire Line
+	11500 6500 11850 6500
+Wire Wire Line
+	11500 6000 11850 6000
+Wire Wire Line
+	11500 6300 11850 6300
+Wire Wire Line
+	11500 5900 11850 5900
+Wire Wire Line
+	11500 5600 11850 5600
+Wire Wire Line
+	11500 4800 11850 4800
+Wire Wire Line
+	11500 4600 11850 4600
 Wire Wire Line
 	11500 5100 11850 5100
 Wire Wire Line
@@ -911,43 +911,43 @@ Wire Wire Line
 Wire Wire Line
 	11500 5300 11850 5300
 Wire Wire Line
-	11500 5400 11850 5400
+	11500 5700 11850 5700
 Wire Wire Line
 	11500 5500 11850 5500
 Wire Wire Line
-	11500 5600 11850 5600
-Wire Wire Line
-	11500 5700 11850 5700
-Wire Wire Line
-	11500 5800 11850 5800
-Wire Wire Line
-	11500 5900 11850 5900
-Wire Wire Line
-	11500 6000 11850 6000
-Text GLabel 11500 6100 0    50   Output ~ 0
-DVI_DE
-Text GLabel 11500 6200 0    50   Output ~ 0
-DVI_VSYNC
-Text GLabel 11500 6300 0    50   Output ~ 0
-DVI_HSYNC
-Wire Wire Line
-	11500 6300 11850 6300
-Wire Wire Line
-	11850 6200 11500 6200
-Wire Wire Line
 	11500 6100 11850 6100
-Text GLabel 11500 6400 0    50   Output ~ 0
-DVI_CLK
-Text GLabel 11500 6500 0    50   BiDi ~ 0
-DVI_SDA
-Text GLabel 11500 6600 0    50   BiDi ~ 0
-DVI_SCL
 Wire Wire Line
 	11500 6600 11850 6600
 Wire Wire Line
-	11500 6500 11850 6500
+	11500 6400 11850 6400
 Wire Wire Line
-	11850 6400 11500 6400
+	11500 6200 11850 6200
+Wire Wire Line
+	11500 4500 11850 4500
+Text GLabel 11500 3700 0    50   Output ~ 0
+DVI_DE
+Text GLabel 11500 3500 0    50   Output ~ 0
+DVI_VSYNC
+Text GLabel 11500 4100 0    50   Output ~ 0
+DVI_HSYNC
+Wire Wire Line
+	11500 4100 11850 4100
+Wire Wire Line
+	11850 3500 11500 3500
+Wire Wire Line
+	11500 3700 11850 3700
+Text GLabel 11500 5400 0    50   Output ~ 0
+DVI_CLK
+Text GLabel 11500 3900 0    50   BiDi ~ 0
+DVI_SDA
+Text GLabel 11500 4000 0    50   BiDi ~ 0
+DVI_SCL
+Wire Wire Line
+	11500 4000 11850 4000
+Wire Wire Line
+	11500 3900 11850 3900
+Wire Wire Line
+	11850 5400 11500 5400
 Wire Wire Line
 	16500 13100 16100 13100
 Text GLabel 16100 13100 0    50   Output ~ 0
@@ -4157,14 +4157,14 @@ Text Label 15000 5100 0    50   ~ 0
 PMOD1_8
 Wire Wire Line
 	15000 5100 15400 5100
-Text Label 11450 3500 0    50   ~ 0
+Text Label 11450 3800 0    50   ~ 0
 PMOD1_9
 Text Label 11450 3600 0    50   ~ 0
 PMOD1_10
 Wire Wire Line
 	11450 3600 11850 3600
 Wire Wire Line
-	11850 3500 11450 3500
+	11850 3800 11450 3800
 NoConn ~ 16500 13800
 NoConn ~ 16500 13900
 NoConn ~ 16500 14000
