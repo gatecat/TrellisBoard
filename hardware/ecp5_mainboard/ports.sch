@@ -184,37 +184,37 @@ Wire Wire Line
 	6200 3300 5300 3300
 Wire Wire Line
 	5300 3300 5300 3200
-Text Label 9800 3950 0    50   ~ 0
-MX4+
-Wire Wire Line
-	9800 3950 10150 3950
-Wire Wire Line
-	9800 4050 10150 4050
-Text Label 9800 4050 0    50   ~ 0
-MX4-
-Text Label 9800 3650 0    50   ~ 0
-MX3+
-Wire Wire Line
-	9800 3650 10150 3650
-Wire Wire Line
-	9800 3750 10150 3750
-Text Label 9800 3750 0    50   ~ 0
-MX3-
-Text Label 9800 3350 0    50   ~ 0
-MX2+
-Wire Wire Line
-	9800 3350 10150 3350
-Wire Wire Line
-	9800 3450 10150 3450
-Text Label 9800 3450 0    50   ~ 0
-MX2-
 Text Label 9800 3050 0    50   ~ 0
-MX1+
+MX4+
 Wire Wire Line
 	9800 3050 10150 3050
 Wire Wire Line
 	9800 3150 10150 3150
 Text Label 9800 3150 0    50   ~ 0
+MX4-
+Text Label 9800 3450 0    50   ~ 0
+MX3+
+Wire Wire Line
+	9800 3450 10150 3450
+Wire Wire Line
+	9800 3350 10150 3350
+Text Label 9800 3350 0    50   ~ 0
+MX3-
+Text Label 9800 3650 0    50   ~ 0
+MX2+
+Wire Wire Line
+	9800 3650 10150 3650
+Wire Wire Line
+	9800 3750 10150 3750
+Text Label 9800 3750 0    50   ~ 0
+MX2-
+Text Label 9800 4050 0    50   ~ 0
+MX1+
+Wire Wire Line
+	9800 4050 10150 4050
+Wire Wire Line
+	9800 3950 10150 3950
+Text Label 9800 3950 0    50   ~ 0
 MX1-
 NoConn ~ 10150 2450
 $Comp
@@ -1228,13 +1228,13 @@ Wire Wire Line
 $Comp
 L Device:R_Pack04 RN5
 U 1 1 5CDDA130
-P 15100 3400
-F 0 "RN5" V 14683 3400 50  0000 C CNN
-F 1 "10k" V 14774 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 15375 3400 50  0001 C CNN
-F 3 "~" H 15100 3400 50  0001 C CNN
-	1    15100 3400
-	0    1    1    0   
+P 15100 3300
+F 0 "RN5" V 14683 3300 50  0000 C CNN
+F 1 "10k" V 14774 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 15375 3300 50  0001 C CNN
+F 3 "~" H 15100 3300 50  0001 C CNN
+	1    15100 3300
+	0    1    -1   0   
 $EndComp
 Text GLabel 14700 3200 0    50   UnSpc ~ 0
 RGMII_RX_DV
