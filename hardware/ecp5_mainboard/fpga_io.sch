@@ -1250,27 +1250,27 @@ Wire Wire Line
 	16400 1000 16650 1000
 Wire Wire Line
 	16300 1000 16400 1000
-Text GLabel 15050 5900 0    50   BiDi ~ 0
+Text GLabel 15050 5100 0    50   BiDi ~ 0
 ULPI_D0
-Text GLabel 15050 5800 0    50   BiDi ~ 0
-ULPI_D1
 Text GLabel 15050 5700 0    50   BiDi ~ 0
-ULPI_D2
+ULPI_D1
 Text GLabel 15050 5600 0    50   BiDi ~ 0
-ULPI_D3
-Text GLabel 15050 5500 0    50   BiDi ~ 0
-ULPI_D4
-Text GLabel 15050 5400 0    50   BiDi ~ 0
-ULPI_D5
-Text GLabel 15050 5300 0    50   BiDi ~ 0
-ULPI_D6
+ULPI_D2
 Text GLabel 15050 5200 0    50   BiDi ~ 0
+ULPI_D3
+Text GLabel 15050 5300 0    50   BiDi ~ 0
+ULPI_D4
+Text GLabel 15050 5800 0    50   BiDi ~ 0
+ULPI_D5
+Text GLabel 15050 5500 0    50   BiDi ~ 0
+ULPI_D6
+Text GLabel 15050 6000 0    50   BiDi ~ 0
 ULPI_D7
-Text GLabel 15050 6000 0    50   Input ~ 0
+Text GLabel 15050 5900 0    50   Input ~ 0
 ULPI_NXT
-Text GLabel 15050 6100 0    50   Input ~ 0
+Text GLabel 15050 6200 0    50   Input ~ 0
 ULPI_DIR
-Text GLabel 15050 6200 0    50   Output ~ 0
+Text GLabel 15050 6100 0    50   Output ~ 0
 ULPI_STP
 Text GLabel 15050 6400 0    50   Input ~ 0
 ULPI_CLKO
@@ -1281,27 +1281,27 @@ Wire Wire Line
 Wire Wire Line
 	11500 1800 11850 1800
 Wire Wire Line
-	15050 5200 15400 5200
+	15050 6000 15400 6000
+Wire Wire Line
+	15050 5500 15400 5500
+Wire Wire Line
+	15050 5800 15400 5800
 Wire Wire Line
 	15050 5300 15400 5300
 Wire Wire Line
-	15050 5400 15400 5400
-Wire Wire Line
-	15050 5500 15400 5500
+	15050 5200 15400 5200
 Wire Wire Line
 	15050 5600 15400 5600
 Wire Wire Line
 	15050 5700 15400 5700
 Wire Wire Line
-	15050 5800 15400 5800
+	15050 5100 15400 5100
 Wire Wire Line
 	15050 5900 15400 5900
 Wire Wire Line
-	15050 6000 15400 6000
+	15050 6200 15400 6200
 Wire Wire Line
 	15050 6100 15400 6100
-Wire Wire Line
-	15050 6200 15400 6200
 Text GLabel 15050 6500 0    50   Input ~ 0
 FABRIC_REFCLK
 Wire Wire Line
@@ -4153,10 +4153,10 @@ Wire Wire Line
 	15400 5000 15000 5000
 Text Label 15000 5000 0    50   ~ 0
 PMOD1_7
-Text Label 15000 5100 0    50   ~ 0
+Text Label 15000 5400 0    50   ~ 0
 PMOD1_8
 Wire Wire Line
-	15000 5100 15400 5100
+	15000 5400 15400 5400
 Text Label 11450 3800 0    50   ~ 0
 PMOD1_9
 Text Label 11450 3600 0    50   ~ 0
