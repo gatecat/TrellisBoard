@@ -760,44 +760,58 @@ Wire Wire Line
 Wire Wire Line
 	12850 1000 12750 1000
 Connection ~ 12750 1000
-Text GLabel 11500 1800 0    50   Output ~ 0
+Text GLabel 11500 1900 0    50   Output ~ 0
 ETH_MDC
-Text GLabel 11500 1900 0    50   BiDi ~ 0
+Text GLabel 15050 6300 0    50   BiDi ~ 0
 ETH_MDIO
-Text GLabel 11500 2700 0    50   Input ~ 0
-RGMII_TX_EN
-Text GLabel 11500 2200 0    50   Output ~ 0
-RGMII_TXD0
-Text GLabel 11500 2300 0    50   Output ~ 0
-RGMII_TXD1
-Text GLabel 11500 2400 0    50   Output ~ 0
-RGMII_TXD2
-Text GLabel 11500 2500 0    50   Output ~ 0
-RGMII_TXD3
-Text GLabel 11500 2600 0    50   Output ~ 0
-RGMII_TX_CLK
-Text GLabel 11500 2800 0    50   Input ~ 0
-RGMII_RX_DV
-Text GLabel 11500 2900 0    50   Input ~ 0
-RGMII_RXD0
 Text GLabel 11500 3000 0    50   Input ~ 0
+RGMII_TX_EN
+Text GLabel 11500 3100 0    50   Output ~ 0
+RGMII_TXD0
+Text GLabel 11500 3200 0    50   Output ~ 0
+RGMII_TXD1
+Text GLabel 11500 2900 0    50   Output ~ 0
+RGMII_TXD2
+Text GLabel 11500 3400 0    50   Output ~ 0
+RGMII_TXD3
+Text GLabel 11500 2700 0    50   Output ~ 0
+RGMII_TX_CLK
+Text GLabel 11500 2200 0    50   Input ~ 0
+RGMII_RX_DV
+Text GLabel 11500 2300 0    50   Input ~ 0
+RGMII_RXD0
+Text GLabel 11500 2400 0    50   Input ~ 0
 RGMII_RXD1
-Text GLabel 11500 3100 0    50   Input ~ 0
+Text GLabel 11500 3300 0    50   Input ~ 0
 RGMII_RXD2
-Text GLabel 11500 3200 0    50   Input ~ 0
+Text GLabel 11500 2800 0    50   Input ~ 0
 RGMII_RXD3
 Text GLabel 11500 2000 0    50   Input ~ 0
 RGMII_RX_CLK
-Text GLabel 11500 3300 0    50   Input ~ 0
+Text GLabel 11500 2600 0    50   Input ~ 0
 ETH_INT_N
-Text GLabel 11500 3400 0    50   Output ~ 0
+Text GLabel 11500 2500 0    50   Output ~ 0
 ETH_~RESET
 Text GLabel 11500 2100 0    50   Input ~ 0
 RGMII_REF_CLK
 Wire Wire Line
-	11500 1800 11850 1800
+	11500 1900 11850 1900
 Wire Wire Line
-	11850 1900 11500 1900
+	15400 6300 15050 6300
+Wire Wire Line
+	11500 3100 11850 3100
+Wire Wire Line
+	11500 3200 11850 3200
+Wire Wire Line
+	11500 2900 11850 2900
+Wire Wire Line
+	11500 3400 11850 3400
+Wire Wire Line
+	11500 2700 11850 2700
+Wire Wire Line
+	11500 2000 11850 2000
+Wire Wire Line
+	11500 2100 11850 2100
 Wire Wire Line
 	11500 2200 11850 2200
 Wire Wire Line
@@ -805,29 +819,15 @@ Wire Wire Line
 Wire Wire Line
 	11500 2400 11850 2400
 Wire Wire Line
-	11500 2500 11850 2500
-Wire Wire Line
-	11500 2600 11850 2600
-Wire Wire Line
-	11500 2000 11850 2000
-Wire Wire Line
-	11500 2100 11850 2100
-Wire Wire Line
 	11500 2800 11850 2800
 Wire Wire Line
-	11500 2900 11850 2900
+	11850 3300 11500 3300
 Wire Wire Line
 	11500 3000 11850 3000
 Wire Wire Line
-	11500 3200 11850 3200
+	11500 2600 11850 2600
 Wire Wire Line
-	11850 3100 11500 3100
-Wire Wire Line
-	11500 2700 11850 2700
-Wire Wire Line
-	11500 3300 11850 3300
-Wire Wire Line
-	11500 3400 11850 3400
+	11500 2500 11850 2500
 Text GLabel 11500 4300 0    50   Output ~ 0
 DVI_D0
 Text GLabel 11500 4200 0    50   Output ~ 0
@@ -1274,12 +1274,12 @@ Text GLabel 15050 6200 0    50   Output ~ 0
 ULPI_STP
 Text GLabel 15050 6400 0    50   Input ~ 0
 ULPI_CLKO
-Text GLabel 15050 6300 0    50   Output ~ 0
+Text GLabel 11500 1800 0    50   Output ~ 0
 ULPI_RESET
 Wire Wire Line
 	15050 6400 15400 6400
 Wire Wire Line
-	15050 6300 15400 6300
+	11500 1800 11850 1800
 Wire Wire Line
 	15050 5200 15400 5200
 Wire Wire Line
@@ -4358,4 +4358,8 @@ NoConn ~ 8100 12700
 NoConn ~ 8100 14400
 NoConn ~ 8100 14200
 NoConn ~ 9550 14700
+Wire Bus Line
+	12350 2000 12550 2000
+Wire Bus Line
+	12350 2100 12550 2100
 $EndSCHEMATC
