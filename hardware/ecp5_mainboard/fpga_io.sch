@@ -614,15 +614,15 @@ Wire Wire Line
 	5400 7500 5600 7500
 Wire Wire Line
 	5400 8100 5600 8100
-Text GLabel 5400 1900 0    50   Input ~ 0
-DIP_SW0
-Text GLabel 5400 2000 0    50   Input ~ 0
-DIP_SW1
-Text GLabel 5400 2100 0    50   Input ~ 0
-DIP_SW2
-Text GLabel 5400 2200 0    50   Input ~ 0
-DIP_SW3
 Text GLabel 5400 2300 0    50   Input ~ 0
+DIP_SW0
+Text GLabel 5400 1900 0    50   Input ~ 0
+DIP_SW1
+Text GLabel 5400 2000 0    50   Input ~ 0
+DIP_SW2
+Text GLabel 5400 2100 0    50   Input ~ 0
+DIP_SW3
+Text GLabel 5400 2200 0    50   Input ~ 0
 DIP_SW4
 Text GLabel 5400 2400 0    50   Input ~ 0
 DIP_SW5
@@ -630,6 +630,8 @@ Text GLabel 5400 2500 0    50   Input ~ 0
 DIP_SW6
 Text GLabel 5400 2600 0    50   Input ~ 0
 DIP_SW7
+Wire Wire Line
+	5400 2300 5600 2300
 Wire Wire Line
 	5400 1900 5600 1900
 Wire Wire Line
@@ -639,8 +641,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 2200 5600 2200
 Wire Wire Line
-	5400 2300 5600 2300
-Wire Wire Line
 	5400 2400 5600 2400
 Wire Wire Line
 	5400 2500 5600 2500
@@ -648,18 +648,18 @@ Wire Wire Line
 	5400 2600 5600 2600
 Text GLabel 5400 2800 0    50   Input ~ 0
 BTN0
-Text GLabel 5400 2900 0    50   Input ~ 0
-BTN1
 Text GLabel 5400 3000 0    50   Input ~ 0
+BTN1
+Text GLabel 5400 2900 0    50   Input ~ 0
 BTN2
 Text GLabel 5400 3100 0    50   Input ~ 0
 BTN3
 Wire Wire Line
 	5400 2800 5600 2800
 Wire Wire Line
-	5600 2900 5400 2900
+	5600 3000 5400 3000
 Wire Wire Line
-	5400 3000 5600 3000
+	5400 2900 5600 2900
 Wire Wire Line
 	5400 3100 5600 3100
 $Comp
@@ -949,31 +949,31 @@ Wire Wire Line
 Wire Wire Line
 	11850 5400 11500 5400
 Wire Wire Line
-	16500 13100 16100 13100
-Text GLabel 16100 13100 0    50   Output ~ 0
+	15400 2500 15050 2500
+Text GLabel 15050 2500 0    50   Output ~ 0
 LED0
-Text GLabel 16100 13200 0    50   Output ~ 0
+Text GLabel 15050 2300 0    50   Output ~ 0
 LED1
-Text GLabel 16100 13300 0    50   Output ~ 0
+Text GLabel 15050 2400 0    50   Output ~ 0
 LED2
-Text GLabel 16100 13400 0    50   Output ~ 0
+Text GLabel 15050 2200 0    50   Output ~ 0
 LED3
-Text GLabel 16100 13500 0    50   Output ~ 0
+Text GLabel 15050 2100 0    50   Output ~ 0
 LED4
-Text GLabel 16100 13600 0    50   Output ~ 0
+Text GLabel 16100 13400 0    50   Output ~ 0
 LED5
 Text GLabel 16100 13700 0    50   Output ~ 0
 LED6
 Wire Wire Line
-	16100 13200 16500 13200
+	15050 2300 15400 2300
 Wire Wire Line
-	16100 13300 16500 13300
+	15050 2400 15400 2400
+Wire Wire Line
+	15050 2200 15400 2200
+Wire Wire Line
+	15050 2100 15400 2100
 Wire Wire Line
 	16100 13400 16500 13400
-Wire Wire Line
-	16100 13500 16500 13500
-Wire Wire Line
-	16100 13600 16500 13600
 Wire Wire Line
 	16100 13700 16500 13700
 $Comp
@@ -1374,25 +1374,25 @@ PCIe_~WAKE
 Wire Wire Line
 	15050 4400 15400 4400
 Wire Wire Line
-	15400 2100 15050 2100
-Text GLabel 15050 2100 0    50   Output ~ 0
+	16500 13300 16100 13300
+Text GLabel 16100 13300 0    50   Output ~ 0
 LED7
-Text GLabel 15050 2200 0    50   Output ~ 0
+Text GLabel 16100 13200 0    50   Output ~ 0
 LED8
-Text GLabel 15050 2300 0    50   Output ~ 0
+Text GLabel 16100 13500 0    50   Output ~ 0
 LED9
-Text GLabel 15050 2400 0    50   Output ~ 0
+Text GLabel 16100 13100 0    50   Output ~ 0
 LED10
-Text GLabel 15050 2500 0    50   Output ~ 0
+Text GLabel 16100 13600 0    50   Output ~ 0
 LED11
 Wire Wire Line
-	15050 2200 15400 2200
+	16100 13200 16500 13200
 Wire Wire Line
-	15050 2300 15400 2300
+	16100 13500 16500 13500
 Wire Wire Line
-	15050 2400 15400 2400
+	16100 13100 16500 13100
 Wire Wire Line
-	15050 2500 15400 2500
+	16100 13600 16500 13600
 $Comp
 L Connector_Generic:Conn_01x40 J5
 U 1 1 62664D22

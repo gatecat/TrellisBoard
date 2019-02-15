@@ -475,13 +475,13 @@ Wire Wire Line
 $Comp
 L Device:R_Pack04 RN11
 U 1 1 610C4929
-P 3950 1050
-F 0 "RN11" V 3533 1050 50  0000 C CNN
-F 1 "2.2k" V 3624 1050 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 4225 1050 50  0001 C CNN
-F 3 "~" H 3950 1050 50  0001 C CNN
-	1    3950 1050
-	0    1    1    0   
+P 3950 950
+F 0 "RN11" V 3533 950 50  0000 C CNN
+F 1 "2.2k" V 3624 950 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 4225 950 50  0001 C CNN
+F 3 "~" H 3950 950 50  0001 C CNN
+	1    3950 950 
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	4150 850  4800 850 
@@ -712,7 +712,7 @@ F 1 "2.2k" V 8324 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 8925 3100 50  0001 C CNN
 F 3 "~" H 8650 3100 50  0001 C CNN
 	1    8650 3100
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	8150 3200 8450 3200
@@ -773,7 +773,7 @@ F 1 " CHP-081TA" H 2550 5426 50  0000 C CNN
 F 2 "Custom Parts:DipSW_CHP-081TA" H 2550 4850 50  0001 C CNN
 F 3 "" H 2550 4850 50  0001 C CNN
 	1    2550 4850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Pack04 RN8
