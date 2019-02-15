@@ -3649,9 +3649,9 @@ Text GLabel 16100 12300 0    50   BiDi ~ 0
 FTDI_D6
 Text GLabel 16100 12400 0    50   BiDi ~ 0
 FTDI_D7
-Text GLabel 16100 12600 0    39   BiDi ~ 0
-FTDI_~RXF
 Text GLabel 16100 12700 0    39   BiDi ~ 0
+FTDI_~RXF
+Text GLabel 16100 12600 0    39   BiDi ~ 0
 FTDI_~TXE
 Text GLabel 16100 12800 0    39   BiDi ~ 0
 FTDI_~RD
@@ -3676,9 +3676,9 @@ Wire Wire Line
 Wire Wire Line
 	16100 12400 16500 12400
 Wire Wire Line
-	16100 12600 16500 12600
-Wire Wire Line
 	16100 12700 16500 12700
+Wire Wire Line
+	16100 12600 16500 12600
 Wire Wire Line
 	16100 12800 16500 12800
 Wire Wire Line
