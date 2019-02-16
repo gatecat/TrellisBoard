@@ -2138,7 +2138,7 @@ $EndComp
 Wire Wire Line
 	10800 6700 10800 6750
 $Comp
-L pkl_texas:TFP410 U19
+L ecp5_mainboard-rescue:TFP410-pkl_texas U19
 U 1 1 5DD5619A
 P 6450 8000
 F 0 "U19" H 6450 10325 50  0000 C CNN

@@ -3343,9 +3343,11 @@ Connection ~ 21150 8300
 Text Label 20750 8300 0    50   ~ 0
 ~INIT
 $Comp
-L pkl_memory:W25Q U27
+L ecp5_mainboard-rescue:W25Q-pkl_memory U27
 U 1 1 60E46888
 P 20600 9650
+AR Path="/60E46888" Ref="U27"  Part="1" 
+AR Path="/61FAF948/60E46888" Ref="U27"  Part="1" 
 F 0 "U27" H 20600 10075 50  0000 C CNN
 F 1 "W25Q" H 20600 9984 50  0000 C CNN
 F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 20600 9650 50  0001 C CNN
