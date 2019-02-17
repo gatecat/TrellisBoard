@@ -3,20 +3,18 @@
 ## Key Features
  - Largest ECP5; LFE5UM5G-85F
  - PCIe 2.0 x2 card edge connector on two SERDES channels
- - Remaining two SERDES channels on SATA connectors
- - 1GByte x32 DDR3 chips
- - Dedicated HDMI output, probably using TFP410 serialiser
+ - Remaining two SERDES channels on M.2 E-key connector
+ - 1GByte x32 DDR3L (two x16 chips)
+ - Dedicated HDMI output, using TFP410 serialiser
  - 1000BASE-T GbE connector with RGMII PHY
  - USB-A 2.0 host connector with ULPI PHY
- - 2nd USB-A connector directly connected to FPGA
  - FT2232H for debug JTAG and UART/FIFO with micro-B connector
  - PCIe or external 12V power input
- - 12 user LEDs, 4 user buttons, 8 user DIP switches
+ - 12 bicolour (tristate) user LEDs, 4 user buttons, 8 user DIP switches
  - 128Mbit QSPI flash for boot and data
  - microSD card connector
- - Audio I/O with I2S codec
  - Dual PMOD connector
- - As many remaining IO as possible on high speed FFC connectors with a differential optimised pinout (4x 24 IO + ...). Selectable 1.8V/2.5V/3.3V
+ - As many remaining IO as possible on high speed FFC connectors with a differential optimised pinout (3x 24 IO). Selectable 1.8V/2.5V/3.3V
 
 ## Layout
  - PCIe card form factor
