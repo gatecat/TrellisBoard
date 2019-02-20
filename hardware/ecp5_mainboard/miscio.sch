@@ -414,13 +414,13 @@ Wire Wire Line
 $Comp
 L Device:R_Pack04 RN7
 U 1 1 6108969C
-P 1250 1050
-F 0 "RN7" V 833 1050 50  0000 C CNN
-F 1 "2.2k" V 924 1050 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 1525 1050 50  0001 C CNN
-F 3 "~" H 1250 1050 50  0001 C CNN
-	1    1250 1050
-	0    1    1    0   
+P 1250 950
+F 0 "RN7" V 833 950 50  0000 C CNN
+F 1 "2.2k" V 924 950 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 1525 950 50  0001 C CNN
+F 3 "~" H 1250 950 50  0001 C CNN
+	1    1250 950 
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	1450 850  2100 850 
