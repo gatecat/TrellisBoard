@@ -3550,7 +3550,7 @@ F 1 "10k" H 3088 855 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 3175 900 50  0001 C CNN
 F 3 "~" H 2900 900 50  0001 C CNN
 	1    2900 900 
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2700 1100 2700 1250
