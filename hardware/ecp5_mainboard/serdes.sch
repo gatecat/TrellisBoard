@@ -1779,7 +1779,7 @@ Wire Wire Line
 Text GLabel 9200 7300 2    50   Input ~ 0
 M2_TXD
 Text GLabel 9200 7500 2    50   Output ~ 0
-M2_TXD
+M2_RXD
 Wire Wire Line
 	9200 7500 8900 7500
 Text GLabel 9200 7600 2    50   BiDi ~ 0
