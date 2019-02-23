@@ -1317,13 +1317,13 @@ F 3 "~" H 15100 4050 50  0001 C CNN
 	1    15100 4050
 	0    1    1    0   
 $EndComp
-Text Label 14400 4050 0    50   ~ 0
+Text Label 14400 4150 0    50   ~ 0
 ETH_LED1
 Wire Wire Line
-	14400 4050 14900 4050
+	14400 4150 14900 4150
 Wire Wire Line
-	14900 4150 14400 4150
-Text Label 14400 4150 0    50   ~ 0
+	14900 4050 14400 4050
+Text Label 14400 4050 0    50   ~ 0
 ETH_LED2
 $Comp
 L power:GND #PWR0163

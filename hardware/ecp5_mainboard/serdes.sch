@@ -2001,4 +2001,24 @@ Wire Wire Line
 Connection ~ 6300 10750
 Text Notes 6300 11000 0    50   ~ 0
 M.2 standoffs
+$Comp
+L Device:C_Small C259
+U 1 1 5C9FD15E
+P 9100 2750
+F 0 "C259" H 9192 2796 50  0000 L CNN
+F 1 "470n" H 9192 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9100 2750 50  0001 C CNN
+F 3 "~" H 9100 2750 50  0001 C CNN
+	1    9100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2600 9100 2600
+Wire Wire Line
+	9100 2600 9100 2650
+Connection ~ 8750 2600
+Wire Wire Line
+	9100 2850 9100 2950
+Wire Wire Line
+	9100 2950 8750 2950
 $EndSCHEMATC
