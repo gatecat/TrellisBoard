@@ -4210,15 +4210,14 @@ Text GLabel 11500 7300 0    50   Input ~ 0
 FPGA_12MHz
 Wire Wire Line
 	11500 7300 11850 7300
-NoConn ~ 11850 7200
 NoConn ~ 11850 7100
 NoConn ~ 11850 7000
 NoConn ~ 11850 6800
 NoConn ~ 11850 6700
-Text GLabel 11500 6900 0    50   Output ~ 0
+Text GLabel 11500 7200 0    50   Output ~ 0
 CLK_SD_OE
 Wire Wire Line
-	11850 6900 11500 6900
+	11850 7200 11500 7200
 Text GLabel 20150 4600 0    50   BiDi ~ 0
 USD_D0
 Text GLabel 20150 4700 0    50   BiDi ~ 0
