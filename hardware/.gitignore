@@ -5,3 +5,4 @@
 *.bck
 *.kicad_pcb-bak
 Thumbs.db
+fp-info-cache
