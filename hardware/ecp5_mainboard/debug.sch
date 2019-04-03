@@ -1104,66 +1104,81 @@ Wire Wire Line
 Connection ~ 10500 5700
 Wire Wire Line
 	10500 5700 10500 5800
-$Comp
-L Connector:USB_B_Micro J2
-U 1 1 61582E96
-P 3300 3850
-F 0 "J2" H 3355 4317 50  0000 C CNN
-F 1 "USB_B_Micro" H 3355 4226 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3450 3800 50  0001 C CNN
-F 3 "~" H 3450 3800 50  0001 C CNN
-	1    3300 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 3850 4350 3850
-Wire Wire Line
-	4350 3850 4550 4050
-Wire Wire Line
-	4900 4050 4550 4050
-Wire Wire Line
-	4900 3850 4450 3850
-Wire Wire Line
-	4450 3850 4350 3950
-Wire Wire Line
-	4350 3950 3600 3950
-Text Label 3700 3850 0    50   ~ 0
+Text Label 3900 4050 0    50   ~ 0
 PORT_D+
-Text Label 3700 3950 0    50   ~ 0
+Text Label 3800 3850 0    50   ~ 0
 PORT_D-
-NoConn ~ 3600 4050
 $Comp
 L power:GND #PWR068
 U 1 1 615FD047
-P 3300 4450
-F 0 "#PWR068" H 3300 4200 50  0001 C CNN
-F 1 "GND" H 3305 4277 50  0000 C CNN
-F 2 "" H 3300 4450 50  0001 C CNN
-F 3 "" H 3300 4450 50  0001 C CNN
-	1    3300 4450
+P 2450 6050
+F 0 "#PWR068" H 2450 5800 50  0001 C CNN
+F 1 "GND" H 2455 5877 50  0000 C CNN
+F 2 "" H 2450 6050 50  0001 C CNN
+F 3 "" H 2450 6050 50  0001 C CNN
+	1    2450 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 4450 3300 4350
+	2450 6050 2450 5950
 Wire Wire Line
-	3300 4350 3200 4350
+	2450 5950 2300 5950
 Wire Wire Line
-	3200 4350 3200 4250
-Connection ~ 3300 4350
-Wire Wire Line
-	3300 4350 3300 4250
+	2300 5950 2300 5850
 NoConn ~ 9400 5250
 NoConn ~ 9400 5350
 NoConn ~ 9400 5450
 NoConn ~ 9400 2550
 NoConn ~ 9400 2650
 NoConn ~ 9400 2750
-Wire Wire Line
-	4150 3500 3900 3500
-Wire Wire Line
-	3900 3500 3900 3650
-Wire Wire Line
-	3900 3650 3600 3650
-Text GLabel 4150 3500 2    50   Output ~ 0
+Text GLabel 3400 3250 2    50   Output ~ 0
 USB_5V
+$Comp
+L Connector:USB_C_Receptacle J?
+U 1 1 5D1382FA
+P 2600 4250
+F 0 "J?" H 2707 5517 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 2707 5426 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 2750 4250 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2750 4250 50  0001 C CNN
+	1    2600 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3850 3300 3850
+Wire Wire Line
+	3200 3750 3300 3750
+Wire Wire Line
+	3300 3750 3300 3850
+Connection ~ 3300 3850
+Wire Wire Line
+	3300 3850 4900 3850
+Wire Wire Line
+	3200 4050 3300 4050
+Wire Wire Line
+	3200 3950 3300 3950
+Wire Wire Line
+	3300 3950 3300 4050
+Connection ~ 3300 4050
+Wire Wire Line
+	3300 4050 4900 4050
+Wire Wire Line
+	3200 3250 3400 3250
+Wire Wire Line
+	2600 5850 2600 5950
+Wire Wire Line
+	2600 5950 2450 5950
+Connection ~ 2450 5950
+NoConn ~ 3200 5450
+NoConn ~ 3200 5550
+NoConn ~ 3200 5250
+NoConn ~ 3200 5150
+NoConn ~ 3200 4950
+NoConn ~ 3200 4850
+NoConn ~ 3200 4650
+NoConn ~ 3200 4550
+NoConn ~ 3200 4350
+NoConn ~ 3200 4250
+NoConn ~ 3200 3450
+NoConn ~ 3200 3550
 $EndSCHEMATC
