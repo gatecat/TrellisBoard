@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ecp5_mainboard-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -575,7 +575,7 @@ L Oscillator:XO32 X1
 U 1 1 62878848
 P 5200 6550
 F 0 "X1" H 5541 6596 50  0000 L CNN
-F 1 "XO32" H 5541 6505 50  0000 L CNN
+F 1 "12MHz" H 5541 6505 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm" H 5900 6200 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf" H 5100 6550 50  0001 C CNN
 	1    5200 6550
@@ -1036,7 +1036,7 @@ L Device:R_Pack04 RN3
 U 1 1 5B78EB8E
 P 10150 5700
 F 0 "RN3" V 9733 5700 50  0000 C CNN
-F 1 "R_Pack04" V 9824 5700 50  0000 C CNN
+F 1 "10k" V 9824 5700 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10425 5700 50  0001 C CNN
 F 3 "~" H 10150 5700 50  0001 C CNN
 	1    10150 5700
@@ -1152,11 +1152,18 @@ Wire Wire Line
 Connection ~ 3300 4350
 Wire Wire Line
 	3300 4350 3300 4250
-NoConn ~ 3600 3650
 NoConn ~ 9400 5250
 NoConn ~ 9400 5350
 NoConn ~ 9400 5450
 NoConn ~ 9400 2550
 NoConn ~ 9400 2650
 NoConn ~ 9400 2750
+Wire Wire Line
+	4150 3500 3900 3500
+Wire Wire Line
+	3900 3500 3900 3650
+Wire Wire Line
+	3900 3650 3600 3650
+Text GLabel 4150 3500 2    50   Output ~ 0
+USB_5V
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ecp5_mainboard-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1031,7 +1031,7 @@ U 1 1 6198C2EE
 P 9550 7600
 F 0 "C182" H 9642 7646 50  0000 L CNN
 F 1 "10µ" H 9642 7555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9550 7600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9550 7600 50  0001 C CNN
 F 3 "~" H 9550 7600 50  0001 C CNN
 	1    9550 7600
 	1    0    0    -1  

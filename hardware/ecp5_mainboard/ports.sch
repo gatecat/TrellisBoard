@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ecp5_mainboard-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Ethernet:KSZ9031RNXCA U21
+L ecp5_mainboard-rescue:KSZ9031RNXCA-Interface_Ethernet U21
 U 1 1 5CA0A635
 P 11450 3250
 F 0 "U21" H 11250 1700 50  0000 C CNN
@@ -3495,9 +3495,11 @@ Connection ~ 13650 750
 Wire Wire Line
 	13650 750  14000 750 
 $Comp
-L Connector:Micro_SD_Card J13
+L ecp5_mainboard-rescue:Micro_SD_Card-Connector J13
 U 1 1 632D42B7
 P 1550 1550
+AR Path="/632D42B7" Ref="J13"  Part="1" 
+AR Path="/5CA09014/632D42B7" Ref="J13"  Part="1" 
 F 0 "J13" H 1500 2267 50  0000 C CNN
 F 1 "Micro_SD_Card" H 1500 2176 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 2700 1850 50  0001 C CNN

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ecp5_mainboard-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
