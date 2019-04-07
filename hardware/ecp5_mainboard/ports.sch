@@ -184,13 +184,13 @@ Wire Wire Line
 	6200 3300 5300 3300
 Wire Wire Line
 	5300 3300 5300 3200
-Text Label 9800 3050 0    50   ~ 0
+Text Label 9800 3150 0    50   ~ 0
 MX4+
 Wire Wire Line
-	9800 3050 10150 3050
-Wire Wire Line
 	9800 3150 10150 3150
-Text Label 9800 3150 0    50   ~ 0
+Wire Wire Line
+	9800 3050 10150 3050
+Text Label 9800 3050 0    50   ~ 0
 MX4-
 Text Label 9800 3450 0    50   ~ 0
 MX3+
@@ -200,14 +200,6 @@ Wire Wire Line
 	9800 3350 10150 3350
 Text Label 9800 3350 0    50   ~ 0
 MX3-
-Text Label 9800 3650 0    50   ~ 0
-MX2+
-Wire Wire Line
-	9800 3650 10150 3650
-Wire Wire Line
-	9800 3750 10150 3750
-Text Label 9800 3750 0    50   ~ 0
-MX2-
 Text Label 9800 4050 0    50   ~ 0
 MX1+
 Wire Wire Line
@@ -3694,4 +3686,12 @@ Wire Wire Line
 Wire Wire Line
 	14700 6950 14900 6950
 Connection ~ 14900 6950
+Text Label 9800 3650 0    50   ~ 0
+MX2-
+Wire Wire Line
+	9800 3650 10150 3650
+Wire Wire Line
+	9800 3750 10150 3750
+Text Label 9800 3750 0    50   ~ 0
+MX2+
 $EndSCHEMATC
