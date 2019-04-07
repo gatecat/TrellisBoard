@@ -1134,10 +1134,10 @@ NoConn ~ 9400 2750
 Text GLabel 3400 3250 2    50   Output ~ 0
 USB_5V
 $Comp
-L Connector:USB_C_Receptacle J?
+L Connector:USB_C_Receptacle J2
 U 1 1 5D1382FA
 P 2600 4250
-F 0 "J?" H 2707 5517 50  0000 C CNN
+F 0 "J2" H 2707 5517 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 2707 5426 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 2750 4250 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2750 4250 50  0001 C CNN
