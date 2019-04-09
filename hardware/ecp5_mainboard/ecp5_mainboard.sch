@@ -62,4 +62,28 @@ U 61FAF948
 F0 "FPGA IO" 50
 F1 "fpga_io.sch" 50
 $EndSheet
+$Comp
+L Connector:Conn_01x01_Female J16
+U 1 1 5CDA154A
+P 9450 3100
+F 0 "J16" H 9478 3171 50  0000 L CNN
+F 1 "MOUNT" H 9478 3080 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9478 2989 50  0000 L CNN
+F 3 "~" H 9450 3100 50  0001 C CNN
+	1    9450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J17
+U 1 1 5CDA17E7
+P 9450 3250
+F 0 "J17" H 9478 3321 50  0000 L CNN
+F 1 "MOUNT" H 9478 3230 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9478 3139 50  0000 L CNN
+F 3 "~" H 9450 3250 50  0001 C CNN
+	1    9450 3250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9250 3250
+NoConn ~ 9250 3100
 $EndSCHEMATC
