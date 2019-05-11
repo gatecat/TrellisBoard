@@ -1,5 +1,7 @@
 # Ultimate ECP5 Board
 
+WIP - expecting prototypes late May
+
 ## Key Features
  - Largest ECP5; LFE5UM5G-85F
  - PCIe 2.0 x2 card edge connector on two SERDES channels
