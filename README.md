@@ -2,6 +2,8 @@
 
 WIP - expecting prototypes late May
 
+![Render of PCB rev 1.0](hardware/ecp5_mainboard/render/ecp5_mainboard.png)
+
 ## Key Features
  - Largest ECP5; LFE5UM5G-85F
  - PCIe 2.0 x2 card edge connector on two SERDES channels
