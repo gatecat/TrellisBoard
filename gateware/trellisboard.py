@@ -132,10 +132,68 @@ _io = [
         Subsignal("uart_tx", Pins("P6"), IOStandard("LVCMOS33")),
         Subsignal("uart_rx", Pins("K5"), IOStandard("LVCMOS33")),
         Subsignal("uart_rts_n", Pins("N7"), IOStandard("LVCMOS33")),
-        Subsignal("uart_cts_n", Pins("P7"), IOStandard("LVCMOS33")),
+        Subsignal("uart_cts_n", Pins("P7"), IOStandard("LVCMOS33"))
+    ),
+
+    ("sdcard", 0,
+        Subsignal("data", Pins("AG1 AJ1 AH1 AK1")),
+        Subsignal("clk", Pins("AK3")),
+        Subsignal("cmd", Pins("AH3")),
+        IOStandard("LVCMOS33")
+    ),
+
+    ("spiflash4x", 0,
+        Subsignal("clk", Pins("AM3")),
+        Subsignal("cs_n", Pins("AJ3")),
+        Subsignal("dq", Pins("AK2 AJ2 AM2 AL1")),
+        IOStandard("LVCMOS33")
+    ),
+
+    ("spiflash", 0,
+        Subsignal("clk", Pins("AM3")),
+        Subsignal("cs_n", Pins("AJ3")),
+        Subsignal("mosi", Pins("AK2")),
+        Subsignal("miso", Pins("AJ2")),
+        Subsignal("wp", Pins("AM2")),
+        Subsignal("hold", Pins("AL1")),
+        IOStandard("LVCMOS33")
+    ),
+
+    ("ulpi", 0,
+        Subsignal("clk", Pins("A18")),
+        Subsignal("stp", Pins("D18")),
+        Subsignal("dir", Pins("C18")),
+        Subsignal("nxt", Pins("F18")),
+        Subsignal("reset", Pins("D17")),
+        Subsignal("data", Pins("C20 C19 E19 D20 A20 B19 D19 A19")),
+        IOStandard("LVCMOS33")
+    ),
+
+    ("hdmi", 0,
+        Subsignal("d", Pins(
+            "C11 A11 B11 A10 B10 C10 A8 B7",
+            "B8 A7 C8 C9 F11 E11 E10 D10",
+            "F10 F9 D9 D8 C7 F8 E8 D11")),
+        Subsignal("de", Pins("F14")),
+        Subsignal("clk", Pins("A9")),
+        Subsignal("vsync", Pins("E14")),
+        Subsignal("hsync", Pins("F13")),
+        Subsignal("sda", Pins("D13")),
+        Subsignal("scl", Pins("C13")),
+        IOStandard("LVCMOS33")
     ),
 ]
 
+_connectors = [
+    ("pmoda", "F19 F20 B22 C23 D14 A13 E22 D23"),
+    ("pmodb", "C25 A26 F23 F25 B25 D25 F22 F24"),
+    ("pmodx", "A24 C24 D24 B23 D23 A25"),
+
+    ("ext0", "T1 U1 AE5 AE4 AB5 AB6 Y5 W5 W2 Y1 AB7 AC6 AB3 AB4 AD3 AE3 AB1 AC1 AD1 AE1 AD6 AE6 AC7 AD7"),
+    ("ext1", "P5 P4 R7 T7 R6 T6 U6 U7 R4 T5 T4 U5 U4 V4 V6 V7 P2 P3 R3 T3 N1 P1 U2 U3"),
+    ("ext2", "K6 K7 J7 J6 H6 H5 F4 F5 F3 E3 C4 C3 C5 D5 D3 D2 H2 H3 J3 K3 B1 C2 F1 H1")
+
+]
 
 # Platform -----------------------------------------------------------------------------------------
 
