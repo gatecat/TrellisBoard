@@ -83,10 +83,13 @@ _io = [
     ("eth_clocks", 0,
         Subsignal("tx", Pins("A15")),
         Subsignal("rx", Pins("C17")),
+        Subsignal("ref", Pins("A17")),
         IOStandard("LVCMOS33")
     ),
+
     ("eth", 0,
         Subsignal("rst_n", Pins("D16")),
+        Subsignal("int_n", Pins("E16")),
         Subsignal("mdio", Pins("F17")),
         Subsignal("mdc", Pins("B17")),
         Subsignal("rx_ctl", Pins("A16")),
