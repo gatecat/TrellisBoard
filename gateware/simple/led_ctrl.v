@@ -17,6 +17,7 @@ module led_ctrl (
 	always @(posedge clk) ctr <= ctr + 1'b1;
 
 	genvar i;
+	wire [11:0] led_o, led_en;
 	generate
 		for (i = 0; i < 12; i = i + 1'b1) begin
 			/*
@@ -25,9 +26,11 @@ module led_ctrl (
 				Only BG asserted : LED at constant 1'b1
 				Neither asserted : LED off (1'bz)
 			*/
-			assign led_pin[i] = led_in_yr ?
-									(led_in_bg ? ctr[DIV_FACTOR - 1] : 1'b0) :
-									(led_in_bg ? 1'b1 : 1'bz);
+			assign led_o[i] = led_in_yr[i] ?
+								(led_in_bg[i] ? ctr[DIV_FACTOR - 1] : 1'b0) :
+								1'b1;
+			assign led_en[i] = led_in_yr[i] || led_in_bg[i];
+			assign led_pin[i] = led_en[i] ? led_o[i] : 1'bz;	
 		end
 	endgenerate
 
