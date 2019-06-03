@@ -1,8 +1,10 @@
 # Ultimate ECP5 Board
 
-WIP - expecting prototypes late May
+WIP - Rev 1.0 prototypes currently under test...
 
+![Photo of PCB rev 1.0](hardware/ecp5_mainboard/photo/rev10_top.jpg)
 ![Render of PCB rev 1.0](hardware/ecp5_mainboard/render/ecp5_mainboard.png)
+
 
 ## Key Features
  - Largest ECP5; LFE5UM5G-85F
