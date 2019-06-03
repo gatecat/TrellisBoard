@@ -59,8 +59,8 @@ _io = [
             "D32 C31 H32 F31 F29 B32 D31"),
             IOStandard("SSTL135_I")),
         Subsignal("ba", Pins("H31 H30 J30"), IOStandard("SSTL135_I")),
-        Subsignal("ras_n", Pins("K30"), IOStandard("SSTL135_I")),
-        Subsignal("cas_n", Pins("K31"), IOStandard("SSTL135_I")),
+        Subsignal("ras_n", Pins("K31"), IOStandard("SSTL135_I")),
+        Subsignal("cas_n", Pins("K30"), IOStandard("SSTL135_I")),
         Subsignal("we_n", Pins("J32"), IOStandard("SSTL135_I")),
         Subsignal("cs_n", Pins("K29"), IOStandard("SSTL135_I")),
         Subsignal("dm", Pins("R26 L27 Y27 U31"), IOStandard("SSTL135_I")),
@@ -76,9 +76,11 @@ _io = [
         Subsignal("cke", Pins("K32"), IOStandard("SSTL135_I")),
         Subsignal("odt", Pins("J29"), IOStandard("SSTL135_I")),
         Subsignal("reset_n", Pins("L32"), IOStandard("SSTL135_I")),
-        Subsignal("vtt_en", Pins("E25"), IOStandard("LVCMOS33")),
         Misc("SLEWRATE=FAST"),
     ),
+
+     ("dram_vtt_en", 0, Pins("E25"), IOStandard("LVCMOS33")),
+
 
     ("eth_clocks", 0,
         Subsignal("tx", Pins("A15")),
