@@ -14,17 +14,17 @@ WIP - Rev 1.0 prototypes currently under test...
  - Dedicated HDMI output, using TFP410 serialiser
  - 1000BASE-T GbE connector with RGMII PHY
  - USB-A 2.0 host connector with ULPI PHY
- - FT2232H for debug JTAG and UART/FIFO with micro-B connector
- - PCIe or external 12V power input
+ - FT2232H for debug JTAG and UART/FIFO with type-C connector
+ - PCIe, external 12V or USB power input
  - 12 bicolour (tristate) user LEDs, 4 user buttons, 8 user DIP switches
  - 128Mbit QSPI flash for boot and data
  - microSD card connector
- - Dual PMOD connector
+ - Dual PMOD connector with extra "middle" IO pins
  - As many remaining IO as possible on high speed FFC connectors with a differential optimised pinout (3x 24 IO). Selectable 1.8V/2.5V/3.3V
 
 ## Layout
  - PCIe card form factor
- - At least Ethernet, USB-A, micro-USB debug and HDMI out
+ - At least Ethernet, USB-A, USB type-C power/debug and HDMI out
  - Other connectors probably would have to be on other sides. FFC connectors probably on top so they can loop over to another card to form a 2-slot card (e.g. with ADCs/DACs for SDR/DAQ)
 
 ## Possible accessories using high-speed FFC connectors
