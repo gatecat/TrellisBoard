@@ -16,6 +16,10 @@ module led_ctrl (
 
 	always @(posedge clk) ctr <= ctr + 1'b1;
 
+	wire pwm_1_4 = ctr[DIV_FACTOR - 1 : DIV_FACTOR - 2] > 2'b10;
+	wire pwm_7_8 = ctr[DIV_FACTOR - 1 : DIV_FACTOR - 3] > 2'b000;
+
+
 	genvar i;
 	wire [11:0] led_o, led_en;
 	generate
@@ -23,14 +27,16 @@ module led_ctrl (
 			/*
 				Only YR asserted : LED at constant 1'b0
 				Both YR & BG asserted : blend colour by connecting LED to divider MSB
+				    NB: bias towards yellow (i<6) or green (i>=6) for better white/orange
 				Only BG asserted : LED at constant 1'b1
 				Neither asserted : LED off (1'bz)
 			*/
 			assign led_o[i] = led_in_yr[i] ?
-								(led_in_bg[i] ? ctr[DIV_FACTOR - 1] : 1'b0) :
+								(led_in_bg[i] ? (i < 6 ? pwm_1_4 : pwm_7_8) : 1'b0) :
 								1'b1;
 			assign led_en[i] = led_in_yr[i] || led_in_bg[i];
 			assign led_pin[i] = led_en[i] ? led_o[i] : 1'bz;	
+			//BB bb_i (.I(led_o[i]), .T(~led_en[i]), .B(led_pin[i]));
 		end
 	endgenerate
 
